@@ -115,6 +115,11 @@ quantity /= 25;
 var total_price = orange_prize / quantity;
 console.log(total_price);
 
+// কোন ভাগের ভাগশেষ নিণয় করতে হলে var এর নিয়ম ।
+var mangoes = 17;
+var person = 5;
+console.log(mangoes % person);
+
 // কোন নাম এর ভিতরে যোগ করতে space দিতে চাইলে এ ক্ষত্রে  এর ব্যবহার ।
 var name = "alvi";
 var country_name = 'BANGLADESH';
@@ -131,6 +136,12 @@ var gpa = '3.55';
 var gap_number = parseFloat(gpa);
 console.log(gap_number);
 
+//
+var num1 = 0.1;
+var num2 = 0.2;
+var math = num1 + num2;
+math = math.toFixed(2)
+
 // var এর কোন মানটি সংখ্যা , কোন মানটি string এবং কোন মানটি boolean ক্ষেত্রে var এর ব্যবহার;
 var price = 100;
 console.log(typeof price);
@@ -140,11 +151,6 @@ console.log(typeof price);
 
 var true_false = true;
 console.log(typeof true_false);
-
-// কোন ভাগের ভাগশেষ নিণয় করতে হলে var এর নিয়ম ।
-var mangoes = 17;
-var person = 5;
-console.log(mangoes % person);
 
 // var এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট কোন string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
 const paragraph1 = 'my name is alvi i want to de a good fullstack wed devoloper';
