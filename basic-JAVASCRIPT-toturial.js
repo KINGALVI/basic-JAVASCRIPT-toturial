@@ -16,9 +16,9 @@ var age = 2;
 console.log(age);
 
 // নাম এর ক্ষেত্রে var এর ব্যবহার ।
-var name = "alvi";
-var country_name = 'BANGLADESH';
-console.log(country_name, name);
+var information = "alvi";
+var country_information = 'BANGLADESH';
+console.log(country_information, information);
 
 // সত্য আথবা মিত্র্যা এর ক্ষেত্রে var এর ব্যবহার |
 var true_false = true;
@@ -124,10 +124,10 @@ var person = 5;
 console.log(mangoes % person);
 
 // কোন নাম এর ভিতরে যোগ করতে space দিতে চাইলে এ ক্ষত্রে  এর ব্যবহার ।
-var name = "alvi";
-var country_name = 'BANGLADESH';
-var total_name = name + ' ' + country_name;
-console.log(total_name);
+var information = "alvi";
+var country_information = 'BANGLADESH';
+var total_information = information + ' ' + country_information;
+console.log(total_information);
 
 // কোন string এর ভিতরে যদি সংখ্যা থাকে তাহলে সেটা যদি string থেকে যদি সংখ্যয় পরিবতন এ ক্ষত্রে var এর ব্যাবহার
 var orange_prize = '50';
@@ -155,18 +155,22 @@ console.log(typeof price);
 var true_false = true;
 console.log(typeof true_false);
 
+
+/////////////////////////////
+
+
 // var এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট কোন string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
-const paragraph1 = 'my name is alvi i want to de a good fullstack wed devoloper';
+const paragraph1 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest1 = paragraph1.includes("fullstack")
 console.log(ifexgiest1);
 
 // কোন String এর প্রথম মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
-const paragraph2 = 'my name is alvi i want to de a good fullstack wed devoloper';
+const paragraph2 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest2 = paragraph2.startsWith("fullstack");
 console.log(ifexgiest2);
 
 // কোন String এর শেষ মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
-const paragraph3 = 'my name is alvi i want to de a good fullstack wed devoloper';
+const paragraph3 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest3 = paragraph3.endsWith("devoloper");
 console.log(ifexgiest3);
 
@@ -207,8 +211,8 @@ console.log(age);
 var number = [11, 12, 13, 14, 15];
 console.log(number.indexOf(13));
 
-var name = ['alvi', "abusle", "ahsan", "arghya", 'apu'];
-console.log(name.indexOf('apu'));
+var information = ['alvi', "abusle", "ahsan", "arghya", 'apu'];
+console.log(information.indexOf('apu'));
 
 // কোন Array ভিতরে মান পরিবতন করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
 var alvi = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
@@ -224,61 +228,66 @@ var age = [11, 12, 13, 14, 15];
 console.log(age.lenght);
 
 // নাম এর ক্ষেত্রে Array এর ব্যবহার ।
-var name = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
-console.log(name);
+var information = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
+console.log(information);
 
 // Array এর ভিতরে কত গুলো শব্দ আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
-var name = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
-console.log(name.lenght);
+var information = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
+console.log(information.length);
 
 // Array এর ভিতরে কোন নিদিষ্ট আক্ষর বা সংখ্যা বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 console.log(number[3]);
 
-var name = ['alvi', "shale", "apu", "arghya",
+var information = ['alvi', "shale", "apu", "arghya",
   "rakib", 'ahsoan'];
-console.log(name[1]);
+console.log(information[1]);
 
 // কোন Array এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number[2] = 100;
 console.log(number);
 
-var name = ['alvi', "shale", "apu", "arghya",
+var information = ['alvi', "shale", "apu", "arghya",
   "rakib", 'ahsoan'];
-name[3] = 'clash of clan'
-console.log(name);
+information[3] = 'clash of clan'
+console.log(information);
 
-// কোন Array এর মান খুজে বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
+// কোন Array এর মান কত নম্বরে আবস্থান করছে তা খুজে বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 var position_index = number.indexOf(55);
 console.log(position_index);
+
+var information = ['alvi', "shale", "apu", "arghya",
+  "rakib", 'ahsoan'];
+var position_index = information.indexOf('alvi')
+console.log(position_index)
 
 // কোন Array এর ভিতরে নুতুন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number.push(500);
 console.log(number);
 
-var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-names.push('clash of clan');
-console.log(names);
+var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+informations.push('clash of clan');
+console.log(informations);
 
 // কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number.pop();
 console.log(number);
 
-var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-names.pop();
-console.log(names);
+var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+informations.pop();
+console.log(informations);
 
 // কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 element = number.pop();
 console.log(element);
 
-var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-element = names.pop();
+var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+element = informations.pop();
 console.log(element);
 
 // কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
@@ -286,33 +295,33 @@ var number = [50, 51, 52, 53, 54, 55];
 number.shift();
 console.log(number);
 
-var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-names.shift();
-console.log(names);
+var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+informations.shift();
+console.log(informations);
 
 // কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 element = number.shift();
 console.log(element);
 
-var names = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-element = names.shift();
+var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+element = informations.shift();
 console.log(element);
 
 // কোন string এর sentence কে যদি আমারা ভাগ করে দেখেতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
-const paragraph4 = 'my name is  alvi . i want to de a good fullstack wed devoloper';
+const paragraph4 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
 const ifexgiest4 = paragraph4.split(" ");
 console.log(ifexgiest4);
 
-const paragraph5 = 'my name is  alvi . i want to de a good fullstack wed devoloper';
+const paragraph5 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
 const ifexgiest5 = paragraph5.split(".");
 console.log(ifexgiest5);
 
-const paragraph6 = ['my name is  alvi  i want to de a good fullstack wed devoloper'];
+const paragraph6 = ['my information is  alvi  i want to de a good fullstack wed devoloper'];
 const ifexgiest6 = paragraph6.join(':');
 console.log(ifexgiest6);
 
-const paragraph7 = 'my name is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
+const paragraph7 = 'my information is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
 const ifexgiest7 = paragraph7.slice('.');
 console.log(ifexgiest7);
 
@@ -454,9 +463,9 @@ else if (39 <= []) {
   console.log("f grade")
 }
 
-const username = "alvi";
+const userinformation = "alvi";
 const userinput = "alvo";
-if (username.toLocaleUpperCase == userinput.toLocaleUpperCase) {
+if (userinformation.toLocaleUpperCase == userinput.toLocaleUpperCase) {
   console.log(true);
 }
 else {
@@ -821,7 +830,7 @@ console.log(result10);
 // সাধারনত objecct যেভাবে লিখে ।
 var student = {
   id: 66242,
-  name: 'alvi al mahmud',
+  information: 'alvi al mahmud',
   class: 9,
   marks: 95,
 }
@@ -831,7 +840,7 @@ student.class = 10;
 console.log(student);
 
 // object এর কোন speacfick মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
-console.log(student.name)
+console.log(student.information)
 
 // object এর কোন propaty এর নাম Array আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
 var proparts = Object.keys(student);
@@ -861,9 +870,9 @@ var values = Object.values(shoppingcart);
 console.log(values);
 
 for (i = 0; i < keys.length; i++) {
-  var propartyName = keys[i];
+  var propartyinformation = keys[i];
   var propatyValue = values[i];
-  console.log(propartyName, propatyValue);
+  console.log(propartyinformation, propatyValue);
 }
 
 // short term
@@ -877,9 +886,9 @@ var shoppingcart = {
   bottle: 1,
 }
 
-for (var propartyName in shoppingcart) {
-  const values = shoppingcart[propartyName];
-  console.log(propartyName, values);
+for (var propartyinformation in shoppingcart) {
+  const values = shoppingcart[propartyinformation];
+  console.log(propartyinformation, values);
 }
 
 var Array = ['alvi :', 54, 'apu :', 45];
@@ -897,20 +906,20 @@ var shoppingcart = {
 console.log(shoppingcart);
 
 const products = [
-  {id:1,ProductsName:"xiani phones",productsPrice:1500},
-  {id:2,ProductsName:"samsumg phones",productsPrice:1500},
-  {id:3,ProductsName:"iphone phones",productsPrice:1500},
-  {id:4,ProductsName:"premax phones",productsPrice:1500},
-  {id:5,ProductsName:"xiani lapTop",productsPrice:1500},
-  {id:6,ProductsName:"samsumg lapTop",productsPrice:1500},
-  {id:7,ProductsName:"iphone lapTop",productsPrice:1500},
-  {id:8,ProductsName:"premax lapTop",productsPrice:1500}
+  {id:1,Productsinformation:"xiani phones",productsPrice:1500},
+  {id:2,Productsinformation:"samsumg phones",productsPrice:1500},
+  {id:3,Productsinformation:"iphone phones",productsPrice:1500},
+  {id:4,Productsinformation:"premax phones",productsPrice:1500},
+  {id:5,Productsinformation:"xiani lapTop",productsPrice:1500},
+  {id:6,Productsinformation:"samsumg lapTop",productsPrice:1500},
+  {id:7,Productsinformation:"iphone lapTop",productsPrice:1500},
+  {id:8,Productsinformation:"premax lapTop",productsPrice:1500}
 ];
 
 function machedProducts (products,search){
   const mached=[];
   for(const product of products){
-  if(product.ProductsName.toLowerCase().includes(search.toLowerCase())){
+  if(product.Productsinformation.toLowerCase().includes(search.toLowerCase())){
     mached.push(products);
   }
   }
