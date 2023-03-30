@@ -86,7 +86,7 @@ quantity = 25;
 var total_price = orange_prize / quantity;
 console.log(total_price);
 
-// কোন var এর মান পরিবতন না কর নতুন মান যোগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
+// কোন var এর মান পরিবতন না করে নতুন মান যোগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var tomato_price = 20;
 tomato_price += 10;
 var potato_price = 20;
@@ -94,6 +94,7 @@ potato_price += 15;
 var total_price = tomato_price + potato_price;
 console.log(total_price);
 
+// কোন var এর মান পরিবতন না করে নতুন মান বিয়োগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var tomato_price = 20;
 tomato_price -= 10
 var potato_price = 20;
@@ -101,6 +102,7 @@ potato_price -= 5;
 var total_price = tomato_price - potato_price;
 console.log(total_price);
 
+// কোন var এর মান পরিবতন না করে নতুন মান গুন করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var orange_prize = 50;
 orange_prize *= 25;
 var quantity = 5;
@@ -108,6 +110,7 @@ quantity *= 25;
 var total_price = orange_prize * quantity;
 console.log(total_price);
 
+// কোন var এর মান পরিবতন না করে নতুন মান ভাগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var orange_prize = 50;
 orange_prize /= 25;
 var quantity = 5;
@@ -136,7 +139,7 @@ var gpa = '3.55';
 var gap_number = parseFloat(gpa);
 console.log(gap_number);
 
-//
+//কোন স্যাখ্যার ফলাফল যদি দশমিক আকারে আসে এবং দশমিক ডিজিট যদি ৫ বা ৬ এর বেশি হয় , তাহলে toFixed() ব্যবহার করে দশমিক ডিজিট নিয়ত্রণ করা সম্ভব । 
 var num1 = 0.1;
 var num2 = 0.2;
 var math = num1 + num2;
