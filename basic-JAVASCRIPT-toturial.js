@@ -155,10 +155,6 @@ console.log(typeof price);
 var true_false = true;
 console.log(typeof true_false);
 
-
-/////////////////////////////
-
-
 // var এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট কোন string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
 const paragraph1 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest1 = paragraph1.includes("fullstack")
@@ -263,7 +259,7 @@ var information = ['alvi', "shale", "apu", "arghya",
 var position_index = information.indexOf('alvi')
 console.log(position_index)
 
-// কোন Array এর ভিতরে নুতুন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
+// কোন Array এর ভিতর শেষে নুতুন কোন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number.push(500);
 console.log(number);
@@ -281,7 +277,7 @@ var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 informations.pop();
 console.log(informations);
 
-// কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+// কোন Array এর ভিতরে যে শেষ মানটা কে সরিয়ে ফেলা হয়েছে এবং সেটা দেখতে  চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 element = number.pop();
 console.log(element);
@@ -289,6 +285,15 @@ console.log(element);
 var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 element = informations.pop();
 console.log(element);
+
+//// কোন Array এর ভিতর প্রথমে নুতুন কোন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
+var number = [50, 51, 52, 53, 54, 55];
+number.unshift(500);
+console.log(number);
+
+var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+informations.unshift('clash of clan');
+console.log(informations)
 
 // কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
@@ -299,7 +304,7 @@ var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 informations.shift();
 console.log(informations);
 
-// কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলা হয়েছে এবং সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+// কোন Array এর ভিতরে প্রথম মানটা কে সরিয়ে ফেলা হয়েছে এবং সেটা দেখতে  চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 element = number.shift();
 console.log(element);
