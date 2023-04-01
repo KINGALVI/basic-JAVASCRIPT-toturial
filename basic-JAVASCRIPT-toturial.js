@@ -551,7 +551,7 @@ for (var i = 1; i <= 25; i++) {
 }
 console.log('alvi')
 
-// continue
+// continue loop example
 var numbers = [45, 34, 55, 67, 54, 34, 52, 50];
 for (var i = 0; i < numbers.length; i++) {
   var numbers = numbers[i];
@@ -560,6 +560,17 @@ for (var i = 0; i < numbers.length; i++) {
   }
   console.log(numbers)
 }
+
+// break loop example
+var numbers = [45, 34, 55, 67, 54, 34, 52, 50];
+for (var i = 0; i < numbers.length; i++) {
+  var numbers = numbers[i];
+  if (numbers > 50) {
+    break;
+  }
+  console.log(numbers)
+}
+
 
 // while loop reverce way তে পরিচালনা করার ক্ষেত্রে while loop এর ব্যবহার ।
 for (var num = 10; num >= 1; num--) {
