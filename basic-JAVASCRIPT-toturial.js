@@ -489,6 +489,8 @@ else {
 
 // ৪। javascript এ loop যেভাবে কাজ করে ।
 
+/////
+
 // while loop বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 0;
 while (roastGiven < 7) {
@@ -503,6 +505,8 @@ while (roastGiven < 7) {
 for (var roastGiven = 1; roastGiven <= 10; roastGiven++) {
   console.log(roastGiven);
 }
+
+/////
 
 // for loop কে আরোও সংক্ষেপে লেখার নিয়ম ।
 for (var r = 5; r <= 15; r++) {
