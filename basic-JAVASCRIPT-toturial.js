@@ -123,23 +123,23 @@ var mangoes = 17;
 var person = 5;
 console.log(mangoes % person);
 
-// কোন নাম এর ভিতরে যোগ করতে space দিতে চাইলে এ ক্ষত্রে  এর ব্যবহার ।
+// দুইটী String টাইপ Variable মান এর মধ্যে space দিতে চাইলে এ ক্ষত্রে  এর ব্যবহার ।
 var information = "alvi";
 var country_information = 'BANGLADESH';
 var total_information = information + ' ' + country_information;
 console.log(total_information);
 
-// কোন string এর ভিতরে যদি সংখ্যা থাকে তাহলে সেটা যদি string থেকে যদি সংখ্যয় পরিবতন এ ক্ষত্রে var এর ব্যাবহার
+// কোন string এর ভিতরে যদি সংখ্যা থাকে তাহলে সেটা যদি string থেকে যদি আসল সংখ্যয় পরিবতন এ ক্ষত্রে var এর ব্যাবহার
 var orange_prize = '50';
 var orange_prizes = parseInt(orange_prize);
 console.log(orange_prizes);
 
-// কোন string এর ভিতরে যদি  দংশমিক সংখ্যা থাকে তাহলে সেটা সেটা কে দশমিক আকেরে দেখাতে হলে এ ক্ষত্রে var এর ব্যাবহার
+// কোন string এর ভিতরে যদি  দংশমিক সংখ্যা থাকে তাহলে সেটা সেটা কে আসল দশমিক আকেরে দেখাতে হলে এ ক্ষত্রে var এর ব্যাবহার
 var gpa = '3.55';
 var gap_number = parseFloat(gpa);
 console.log(gap_number);
 
-//কোন স্যাখ্যার ফলাফল যদি দশমিক আকারে আসে এবং দশমিক ডিজিট যদি ৫ বা ৬ এর বেশি হয় , তাহলে toFixed() ব্যবহার করে দশমিক ডিজিট নিয়ত্রণ করা সম্ভব । 
+//কোন Variable মান এর ফলাফল যদি দশমিক আকারে আসে এবং দশমিক ডিজিট যদি ৫ বা ৬ এর বেশি হয় , তাহলে toFixed() ব্যবহার করে দশমিক ডিজিট নিয়ত্রণ করা সম্ভব । 
 var num1 = 0.1;
 var num2 = 0.2;
 var math = num1 + num2;
@@ -331,24 +331,9 @@ const ifexgiest7 = paragraph7.slice('.');
 console.log(ifexgiest7);
 
 // math var
-// var math1 = al.pow(3, 8);
-// console.log(math1);
+var math1 = al.pow(3, 8);
+console.log(math1);
 
-// কোন Array এর ভিতরে কোন মান ছোট আথবা সমান কিনা সেটা বের করতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
-console.log(4 < 5);
-console.log(6 < 5);
-console.log(5 > 4);
-console.log(5 > 6);
-console.log(5 <= 6);
-console.log(5 <= 5);
-console.log(5 <= 4);
-console.log(5 >= 4);
-console.log(5 >= 5);
-console.log(5 >= 6);
-console.log(5 == 5);
-console.log(5 == 6);
-console.log(5 !== 5);
-console.log(5 !== 6);
 
 
 
@@ -549,7 +534,6 @@ for (var i = 1; i <= 25; i++) {
     break;
   }
 }
-console.log('alvi')
 
 // continue loop example
 var numbers = [45, 34, 55, 67, 54, 34, 52, 50];
