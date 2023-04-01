@@ -330,7 +330,7 @@ const paragraph7 = 'my information is  alvi .'; 'i want to de a good fu'; 'llsta
 const ifexgiest7 = paragraph7.slice('.');
 console.log(ifexgiest7);
 
-// math var
+// the use of power in math in javscript
 var math1 = al.pow(3, 8);
 console.log(math1);
 
