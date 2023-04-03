@@ -797,30 +797,33 @@ getOddNumbersofAnArray(my_numbers);
 function reversestring1(text1) {
   for (a = 0; a < text1.length; a++) {
     const element1 = text1[a];
-    console.log(element1);
+    return(element1);
   }
 }
 const myString1 = 'i am a good boy';
 const reverce1 = reversestring1(myString1);
+// return reverce1
 
-// function reversestring2(text2) {
-//   for (i = text2.length-1; i >= 0; i--) {
-//     const element2 = text2[i];
-//     console.log(element2);
-//   }
-// }
-// const myString2 = 'i am a good boy';
-// const reverce2 = reversestring2(myString2);
+function reversestring2(text2) {
+  for (i = text2.length-1; i >= 0; i--) {
+    const element2 = text2[i];
+    return (element2);
+  }
+}
+const myString2 = 'i am a good boy';
+const reverce2 = reversestring2(myString2);
+// return reverce2
+
 
 // calculate sum of numbers using recursion
-const result = 5;
 function sum(i) {
   if (i == 1) {
     return 1;
   }
-  // else
+  else
   return i + sum(i - 1);
 }
+const result = 5;
 console.log(result);
 
 const result10 = foctorial1(5);
