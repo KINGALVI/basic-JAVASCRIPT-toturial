@@ -331,8 +331,8 @@ const ifexgiest7 = paragraph7.slice('.');
 console.log(ifexgiest7);
 
 // the use of power math in  in javscript
-var math1 = al.pow(3, 8);
-console.log(math1);
+// var math1 =pow(3, 8);
+// console.log(math1);
 
 
 
@@ -620,6 +620,26 @@ function starting(num1, num2) {
   console.log('going to add :', num1, num2);
 }
 starting(100, 200);
+
+function nameinfo(name1 , name2) {
+  console.log('our both name is ' , name1 , name2)
+}
+nameinfo("alvi" , "khan")
+// বাইরের কোন Variable কে function Paramiter এর মান হিসেবে দেখাতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
+function namedata(info){
+  console.log('my name is' , info)
+}
+
+var peopleName = 'alvi';
+namedata(peopleName);
+
+
+function numberdata(info) {
+  console.log('my number is' , info)
+}
+
+var peopleNumber = 100;
+numberdata(peopleNumber);
 
 // function একধিক মান সেট করার নিয়ম ।
 function sum(a, b, c, d, e) {
