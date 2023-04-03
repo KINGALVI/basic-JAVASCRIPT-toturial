@@ -621,10 +621,12 @@ function starting(num1, num2) {
 }
 starting(100, 200);
 
+
 function nameinfo(name1 , name2) {
   console.log('our both name is ' , name1 , name2)
 }
 nameinfo("alvi" , "khan")
+
 // বাইরের কোন Variable কে function Paramiter এর মান হিসেবে দেখাতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
 function namedata(info){
   console.log('my name is' , info)
@@ -637,7 +639,6 @@ namedata(peopleName);
 function numberdata(info) {
   console.log('my number is' , info)
 }
-
 var peopleNumber = 100;
 numberdata(peopleNumber);
 
@@ -691,8 +692,8 @@ function add(num1, num2) {
   var sum = num1 + num2;
   return sum;
 }
-result1 = add(12, 14);
-result1 = add(34, 43);
+var result1 = add(12, 14);
+var result1 = add(34, 43);
 const finalresult = add(result1, result1);
 console.log(finalresult);
 
