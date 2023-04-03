@@ -628,7 +628,7 @@ nameinfo("alvi" , "khan")
 // বাইরের কোন Variable কে function Paramiter এর মান হিসেবে দেখাতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
 function namedata(info){
   console.log('my name is' , info)
-}
+} 
 
 var peopleName = 'alvi';
 namedata(peopleName);
