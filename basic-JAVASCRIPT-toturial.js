@@ -868,14 +868,14 @@ var student = {
 student.class = 10;
 console.log(student);
 
-// object এর কোন propaty মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
+// object এর কোন একটি propaty মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
 console.log(student.information)
 
-// object এর কোন propaty এর নাম Array এর ভিতরে String আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
+// object এর সব propaty এর নাম Array এর ভিতরে String আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
 var proparts = Object.keys(student);
 console.log(proparts);
 
-//object এর কোন propaty এর মান Array এর ভিতরে মান আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
+//object এর সব propaty এর মান Array এর ভিতরে মান আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
 var proparty = Object.values(student);
 console.log(proparty);
 
