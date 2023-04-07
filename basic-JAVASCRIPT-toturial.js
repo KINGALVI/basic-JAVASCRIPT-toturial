@@ -506,9 +506,9 @@ for (var r = 5; r <= 15; r += 2) {
   console.log(r);
 }
 
-const number50=[2,56,445,645,353,2424,5636,2355];
+const number50 = [2, 56, 445, 645, 353, 2424, 5636, 2355];
 
-for(let i =0; i<number50.length; i++){
+for (let i = 0; i < number50.length; i++) {
   number50[i];
   console.log(number50);
 }
@@ -563,13 +563,13 @@ for (var num = 10; num >= 1; num--) {
 }
 
 // while loof কে আরোও সক্ষেপে লেখার নিয়ম ।
-const al =[24, 56, 78, 45, 73, 39];
-for(const mahamud of al){
+const al = [24, 56, 78, 45, 73, 39];
+for (const mahamud of al) {
   console.log(al);
 }
 
-const ali =[24, 56, 78, 45, 73, 39];
-for(const {} of al){
+const ali = [24, 56, 78, 45, 73, 39];
+for (const { } of al) {
   console.log(al);
 }
 
@@ -622,22 +622,22 @@ function starting(num1, num2) {
 starting(100, 200);
 
 
-function nameinfo(name1 , name2) {
-  console.log('our both name is ' , name1 , name2)
+function nameinfo(name1, name2) {
+  console.log('our both name is ', name1, name2)
 }
-nameinfo("alvi" , "khan")
+nameinfo("alvi", "khan")
 
 // বাইরের কোন Variable কে function Paramiter এর মান হিসেবে দেখাতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
-function namedata(info){
-  console.log('my name is' , info)
-} 
+function namedata(info) {
+  console.log('my name is', info)
+}
 
 var peopleName = 'alvi';
 namedata(peopleName);
 
 
 function numberdata(info) {
-  console.log('my number is' , info)
+  console.log('my number is', info)
 }
 var peopleNumber = 100;
 numberdata(peopleNumber);
@@ -776,6 +776,19 @@ function getevenNumbersofAnArray(numbers) {
 // let evenumber = getevenofanarray(evenumber);
 getevenNumbersofAnArray(MyNumbers);
 
+// normal fuction 
+function normalfactorial(number) {
+  for (let i = 0; i <= number; i++) {
+    console.log(i)
+  }
+}
+
+//reverce fuction
+function revrcefactiorial(number) {
+  for (let i = number; i >= 1; i--) {
+    console.log(i);
+  }
+}
 
 // find eventodd :odd
 const my_numbers = [24, 56, 77, 45, 78, 99];
@@ -798,7 +811,7 @@ getOddNumbersofAnArray(my_numbers);
 function reversestring1(text1) {
   for (a = 0; a < text1.length; a++) {
     const element1 = text1[a];
-    return(element1);
+    return (element1);
   }
 }
 const myString1 = 'i am a good boy';
@@ -806,7 +819,7 @@ const reverce1 = reversestring1(myString1);
 // return reverce1
 
 function reversestring2(text2) {
-  for (i = text2.length-1; i >= 0; i--) {
+  for (i = text2.length - 1; i >= 0; i--) {
     const element2 = text2[i];
     return (element2);
   }
@@ -822,7 +835,7 @@ function sum(i) {
     return 1;
   }
   else
-  return i + sum(i - 1);
+    return i + sum(i - 1);
 }
 const result = 5;
 console.log(result);
@@ -937,26 +950,26 @@ var shoppingcart = {
 console.log(shoppingcart);
 
 const products = [
-  {id:1,Productsinformation:"xiani phones",productsPrice:1500},
-  {id:2,Productsinformation:"samsumg phones",productsPrice:1500},
-  {id:3,Productsinformation:"iphone phones",productsPrice:1500},
-  {id:4,Productsinformation:"premax phones",productsPrice:1500},
-  {id:5,Productsinformation:"xiani lapTop",productsPrice:1500},
-  {id:6,Productsinformation:"samsumg lapTop",productsPrice:1500},
-  {id:7,Productsinformation:"iphone lapTop",productsPrice:1500},
-  {id:8,Productsinformation:"premax lapTop",productsPrice:1500}
+  { id: 1, Productsinformation: "xiani phones", productsPrice: 1500 },
+  { id: 2, Productsinformation: "samsumg phones", productsPrice: 1500 },
+  { id: 3, Productsinformation: "iphone phones", productsPrice: 1500 },
+  { id: 4, Productsinformation: "premax phones", productsPrice: 1500 },
+  { id: 5, Productsinformation: "xiani lapTop", productsPrice: 1500 },
+  { id: 6, Productsinformation: "samsumg lapTop", productsPrice: 1500 },
+  { id: 7, Productsinformation: "iphone lapTop", productsPrice: 1500 },
+  { id: 8, Productsinformation: "premax lapTop", productsPrice: 1500 }
 ];
 
-function machedProducts (products,search){
-  const mached=[];
-  for(const product of products){
-  if(product.Productsinformation.toLowerCase().includes(search.toLowerCase())){
-    mached.push(products);
-  }
+function machedProducts(products, search) {
+  const mached = [];
+  for (const product of products) {
+    if (product.Productsinformation.toLowerCase().includes(search.toLowerCase())) {
+      mached.push(products);
+    }
   }
   return mached;
 }
-const result25 = machedProducts(products,"phones");
+const result25 = machedProducts(products, "phones");
 console.log(result25);
 
                                               //JAVASCRIPT Basic Toturial END
