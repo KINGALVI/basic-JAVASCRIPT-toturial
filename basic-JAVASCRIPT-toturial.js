@@ -790,6 +790,16 @@ function revrcefactiorial(number) {
   }
 }
 
+function fatorial(number) {
+  let result = 1;
+  for (let i = number; i >= 1; i--) {
+    result = result * i;
+    console.log(i)
+  }
+}
+const fact = fatorial(4);
+console.log('factorial of 4', fact)
+
 // find eventodd :odd
 const my_numbers = [24, 56, 77, 45, 78, 99];
 function getOddNumbersofAnArray(numbers) {
