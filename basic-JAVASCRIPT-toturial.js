@@ -592,7 +592,7 @@ switch (color) {
     // console.log('you are yellow my friend');
     break
   default:
-    // console.log('you are my black black friend');
+  // console.log('you are my black black friend');
 }
 
 
@@ -790,18 +790,32 @@ function revrcefactiorial(number) {
   }
 }
 
-// factorial function
-function fatorial(number) {
+// factorial for loop function
+function fatorial1(number) {
   let result = 1;
   for (let i = number; i >= 1; i--) {
     result = result * i;
     console.log(i)
   }
-  return  result;
+  return result;
 }
-const number1 = 6;
-const fact = fatorial(number1);
-console.log('factorial of', number1 , fact);
+const number1 = 5;
+const fact1 = fatorial1(number1);
+console.log('factorial of', number1, fact1);
+
+//factorial while loop fuction
+function factorial2(number) {
+  let i = 1;
+  let result = 1;
+  while (i >= number) {
+    result = result * i;
+    i--;
+  }
+  return result;
+}
+const number2 = 10;
+const fact2 = factorial2(number2);
+console.log('factoaril2 of', number2, fact2);
 
 
 // find eventodd :odd
