@@ -1,5 +1,5 @@
 // javascript এর code কাজ করছে নাকি তা পরিক্ষা করা যায 
-console.log(5);
+// console.log(5);
 
 
 
@@ -13,78 +13,78 @@ console.log(5);
 
 // সংখ্যা ক্ষেত্রে var এর ব্যবহার ।
 var age = 2;
-console.log(age);
+// console.log(age);
 
 // নাম এর ক্ষেত্রে var এর ব্যবহার ।
 var information = "alvi";
 var country_information = 'BANGLADESH';
-console.log(country_information, information);
+// console.log(country_information, information);
 
 // সত্য আথবা মিত্র্যা এর ক্ষেত্রে var এর ব্যবহার |
 var true_false = true;
-console.log(true_false);
+// console.log(true_false);
 
 var true_false = false;
-console.log(true_false);
+// console.log(true_false);
 
 // একসাথে একাধিক var মান যোগ বা বিয়োগ এর ক্ষত্রে var এর ব্যবহার ।
 var tomato_price = 20;
 var potato_price = 20;
 var total_price = tomato_price + potato_price;
-console.log(total_price);
+// console.log(total_price);
 
 var tomato_price = 20;
 var potato_price = 20;
 var total_price = tomato_price - potato_price;
-console.log(total_price);
+// console.log(total_price);
 
 // একসাথে একাধিক var মান গুন বা ভাগ এর ক্ষেত্রে var ব্যবহার ।
 var orange_prize = 50;
 var quantity = 5;
 var total_price = orange_prize * quantity;
-console.log(total_price);
+// console.log(total_price);
 
 var orange_prize = 50;
 var quantity = 5;
 var total_price = orange_prize / quantity;
-console.log(total_price);
+// console.log(total_price);
 
 // কোন var এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var true_false = true;
 true_false = false;
-console.log(true_false);
+// console.log(true_false);
 
 var true_false = false;
 true_false = true;
-console.log(true_false);
+// console.log(true_false);
 
 var tomato_price = 20;
 tomato_price = 10;
 var potato_price = 20;
 potato_price = 15;
 var total_price = tomato_price + potato_price;
-console.log(total_price);
+// console.log(total_price);
 
 var tomato_price = 20;
 tomato_price = 10;
 var potato_price = 20;
 potato_price = 5;
 var total_price = tomato_price - potato_price;
-console.log(total_price);
+// console.log(total_price);
 
 var orange_prize = 50;
 orange_prize = 25;
 var quantity = 5;
 quantity = 25;
 var total_price = orange_prize * quantity;
-console.log(total_price);
+// console.log(total_price);
 
 var orange_prize = 50;
 orange_prize = 25;
 var quantity = 5;
 quantity = 25;
 var total_price = orange_prize / quantity;
-console.log(total_price);
+// console.log(total_price);
 
 // কোন var এর মান পরিবতন না করে নতুন মান যোগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var tomato_price = 20;
@@ -92,7 +92,7 @@ tomato_price += 10;
 var potato_price = 20;
 potato_price += 15;
 var total_price = tomato_price + potato_price;
-console.log(total_price);
+// console.log(total_price);
 
 // কোন var এর মান পরিবতন না করে নতুন মান বিয়োগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var tomato_price = 20;
@@ -100,7 +100,7 @@ tomato_price -= 10
 var potato_price = 20;
 potato_price -= 5;
 var total_price = tomato_price - potato_price;
-console.log(total_price);
+// console.log(total_price);
 
 // কোন var এর মান পরিবতন না করে নতুন মান গুন করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var orange_prize = 50;
@@ -108,7 +108,7 @@ orange_prize *= 25;
 var quantity = 5;
 quantity *= 25;
 var total_price = orange_prize * quantity;
-console.log(total_price);
+// console.log(total_price);
 
 // কোন var এর মান পরিবতন না করে নতুন মান ভাগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
 var orange_prize = 50;
@@ -116,28 +116,28 @@ orange_prize /= 25;
 var quantity = 5;
 quantity /= 25;
 var total_price = orange_prize / quantity;
-console.log(total_price);
+// console.log(total_price);
 
 // কোন ভাগের ভাগশেষ নিণয় করতে হলে var এর নিয়ম ।
 var mangoes = 17;
 var person = 5;
-console.log(mangoes % person);
+// console.log(mangoes % person);
 
 // দুইটী String টাইপ Variable মান এর মধ্যে space দিতে চাইলে এ ক্ষত্রে  এর ব্যবহার ।
 var information = "alvi";
 var country_information = 'BANGLADESH';
 var total_information = information + ' ' + country_information;
-console.log(total_information);
+// console.log(total_information);
 
 // কোন string এর ভিতরে যদি সংখ্যা থাকে তাহলে সেটা যদি string থেকে যদি আসল সংখ্যয় পরিবতন এ ক্ষত্রে var এর ব্যাবহার
 var orange_prize = '50';
 var orange_prizes = parseInt(orange_prize);
-console.log(orange_prizes);
+// console.log(orange_prizes);
 
 // কোন string এর ভিতরে যদি  দংশমিক সংখ্যা থাকে তাহলে সেটা সেটা কে আসল দশমিক আকেরে দেখাতে হলে এ ক্ষত্রে var এর ব্যাবহার
 var gpa = '3.55';
 var gap_number = parseFloat(gpa);
-console.log(gap_number);
+// console.log(gap_number);
 
 //কোন Variable মান এর ফলাফল যদি দশমিক আকারে আসে এবং দশমিক ডিজিট যদি ৫ বা ৬ এর বেশি হয় , তাহলে toFixed() ব্যবহার করে দশমিক ডিজিট নিয়ত্রণ করা সম্ভব । 
 var num1 = 0.1;
@@ -147,46 +147,46 @@ math = math.toFixed(2)
 
 // var এর কোন মানটি সংখ্যা , কোন মানটি string এবং কোন মানটি boolean ক্ষেত্রে var এর ব্যবহার;
 var price = 100;
-console.log(typeof price);
+// console.log(typeof price);
 
 var price = '100';
-console.log(typeof price);
+// console.log(typeof price);
 
 var true_false = true;
-console.log(typeof true_false);
+// console.log(typeof true_false);
 
 // var এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট কোন string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
 const paragraph1 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest1 = paragraph1.includes("fullstack")
-console.log(ifexgiest1);
+// console.log(ifexgiest1);
 
 // কোন String এর প্রথম মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
 const paragraph2 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest2 = paragraph2.startsWith("fullstack");
-console.log(ifexgiest2);
+// console.log(ifexgiest2);
 
 // কোন String এর শেষ মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
 const paragraph3 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest3 = paragraph3.endsWith("devoloper");
-console.log(ifexgiest3);
+// console.log(ifexgiest3);
 
 // var এর ক্ষেত্রে কোন মান এর মধ্যে পাথক্য বা comparision বের করার নিয়ম ।
 var num1 = 50;
 var num2 = 100;
-console.log(num1 < num2);
-console.log(num1 < num2);
-console.log(num1 > num2);
-console.log(num1 > num2);
-console.log(num1 <= num2);
-console.log(num1 <= num2);
-console.log(num1 <= num2);
-console.log(num1 >= num2);
-console.log(num1 >= num2);
-console.log(num1 >= num2);
-console.log(num1 == num2);
-console.log(num1 == num2);
-console.log(num1 !== num2);
-console.log(num1 !== num2);
+// console.log(num1 < num2);
+// console.log(num1 < num2);
+// console.log(num1 > num2);
+// console.log(num1 > num2);
+// console.log(num1 <= num2);
+// console.log(num1 <= num2);
+// console.log(num1 <= num2);
+// console.log(num1 >= num2);
+// console.log(num1 >= num2);
+// console.log(num1 >= num2);
+// console.log(num1 == num2);
+// console.log(num1 == num2);
+// console.log(num1 !== num2);
+// console.log(num1 !== num2);
 
 
 
@@ -201,138 +201,138 @@ console.log(num1 !== num2);
 
 // সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
 var age = [11, 12, 13, 14, 15];
-console.log(age);
+// console.log(age);
 
 // Array কোন মান কোন জায়গায় আছে সেটা বের করার নিয়ম ।
 var number = [11, 12, 13, 14, 15];
-console.log(number.indexOf(13));
+// console.log(number.indexOf(13));
 
 var information = ['alvi', "abusle", "ahsan", "arghya", 'apu'];
-console.log(information.indexOf('apu'));
+// console.log(information.indexOf('apu'));
 
 // কোন Array ভিতরে মান পরিবতন করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
 var alvi = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 alvi[3] = 'clash of clan'
-console.log(alvi);
+// console.log(alvi);
 
 var number = [11, 12, 13, 14, 15];
 number[2] = 100;
-console.log(number);
+// console.log(number);
 
 // Array এর ভিতরে কত গুলো সংখ্যা আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
 var age = [11, 12, 13, 14, 15];
-console.log(age.lenght);
+// console.log(age.lenght);
 
 // নাম এর ক্ষেত্রে Array এর ব্যবহার ।
 var information = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
-console.log(information);
+// console.log(information);
 
 // Array এর ভিতরে কত গুলো শব্দ আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
 var information = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
-console.log(information.length);
+// console.log(information.length);
 
 // Array এর ভিতরে কোন নিদিষ্ট আক্ষর বা সংখ্যা বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
-console.log(number[3]);
+// console.log(number[3]);
 
 var information = ['alvi', "shale", "apu", "arghya",
   "rakib", 'ahsoan'];
-console.log(information[1]);
+// console.log(information[1]);
 
 // কোন Array এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number[2] = 100;
-console.log(number);
+// console.log(number);
 
 var information = ['alvi', "shale", "apu", "arghya",
   "rakib", 'ahsoan'];
 information[3] = 'clash of clan'
-console.log(information);
+// console.log(information);
 
 // কোন Array এর মান কত নম্বরে আবস্থান করছে তা খুজে বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 var position_index = number.indexOf(55);
-console.log(position_index);
+// console.log(position_index);
 
 var information = ['alvi', "shale", "apu", "arghya",
   "rakib", 'ahsoan'];
 var position_index = information.indexOf('alvi')
-console.log(position_index)
+// console.log(position_index)
 
 // কোন Array এর ভিতর শেষে নুতুন কোন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number.push(500);
-console.log(number);
+// console.log(number);
 
 var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 informations.push('clash of clan');
-console.log(informations);
+// console.log(informations);
 
 // কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number.pop();
-console.log(number);
+// console.log(number);
 
 var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 informations.pop();
-console.log(informations);
+// console.log(informations);
 
 // কোন Array এর ভিতরে যে শেষ মানটা কে সরিয়ে ফেলা হয়েছে এবং সেটা দেখতে  চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 element = number.pop();
-console.log(element);
+// console.log(element);
 
 var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 element = informations.pop();
-console.log(element);
+// console.log(element);
 
 //// কোন Array এর ভিতর প্রথমে নুতুন কোন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number.unshift(500);
-console.log(number);
+// console.log(number);
 
 var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 informations.unshift('clash of clan');
-console.log(informations)
+// console.log(informations)
 
 // কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 number.shift();
-console.log(number);
+// console.log(number);
 
 var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 informations.shift();
-console.log(informations);
+// console.log(informations);
 
 // কোন Array এর ভিতরে প্রথম মানটা কে সরিয়ে ফেলা হয়েছে এবং সেটা দেখতে  চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
 var number = [50, 51, 52, 53, 54, 55];
 element = number.shift();
-console.log(element);
+// console.log(element);
 
 var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 element = informations.shift();
-console.log(element);
+// console.log(element);
 
 // কোন string এর sentence কে যদি আমারা ভাগ করে দেখেতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
 const paragraph4 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
 const ifexgiest4 = paragraph4.split(" ");
-console.log(ifexgiest4);
+// console.log(ifexgiest4);
 
 const paragraph5 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
 const ifexgiest5 = paragraph5.split(".");
-console.log(ifexgiest5);
+// console.log(ifexgiest5);
 
 const paragraph6 = ['my information is  alvi  i want to de a good fullstack wed devoloper'];
 const ifexgiest6 = paragraph6.join(':');
-console.log(ifexgiest6);
+// console.log(ifexgiest6);
 
 const paragraph7 = 'my information is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
 const ifexgiest7 = paragraph7.slice('.');
-console.log(ifexgiest7);
+// console.log(ifexgiest7);
 
 // the use of power math in  in javscript
 // var math1 =pow(3, 8);
-// console.log(math1);
+// // console.log(math1);
 
 
 
@@ -351,11 +351,11 @@ var iphone_price = 1000;
 var my_budget = 500;
 // যদি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
 if (iphone_price > my_budget) {
-  console.log("you can not buy iphone");
+  // console.log("you can not buy iphone");
 }
 // যদি কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
 else {
-  console.log("you can buy iphone");
+  // console.log("you can buy iphone");
 }
 
 // *২য় নিয়ম 
@@ -363,22 +363,22 @@ var isGraduated = true;
 var salary = 5000;
 // যদি এই দুইটি  কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
 if (isGraduated == true && salary > 4000) {
-  console.log("i will succsess");
+  // console.log("i will succsess");
 }
 // যদি এই দুইটি  কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
 else {
-  console.log("i will not success");
+  // console.log("i will not success");
 }
 
 var isGraduated = true;
 var salary = 5000;
 // যদি এই দুইটি  কথার মধ্যে একটি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
 if (isGraduated == true || salary < 9000) {
-  console.log("you can win");
+  // console.log("you can win");
 }
 // যদি এই দুইটি  কথার মধ্যে কোন কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
 else {
-  console.log("you cannot win");
+  // console.log("you cannot win");
 }
 
 // *৩য় নিয়ম 
@@ -387,11 +387,11 @@ var salary = 5000;
 var car = 1;
 // যদি একসাথে তিনটি বিষয় সত্যি তাহলে এই লেখা আসবে ।
 if ((isGraduated == false && salary > 5000) || car <= 0) {
-  console.log("you can sine");
+  // console.log("you can sine");
 }
 // যদি একসাথে তিনটি বিষয় সত্যি না হয় তাহলে এই লেখা আসবে ।
 else {
-  console.log("you cannot sine");
+  // console.log("you cannot sine");
 }
 
 // *৪র্থ নিয়ম 
@@ -401,13 +401,13 @@ var tost = 45;
 var cock = 40;
 // এই নিয়মে যেকোন একটা শত ঠিক হলে বাকি শত গুলো আপ্লয় হয় না ।
 if (chicken > money) {
-  console.log("ami cicken khabo");
+  // console.log("ami cicken khabo");
 }
 else if (tost < money) {
-  console.log("ami tost khabo");
+  // console.log("ami tost khabo");
 }
 else if (cock > money) {
-  console.log("ami cock khabo");
+  // console.log("ami cock khabo");
 }
 
 // *৫ম নিয়ম 
@@ -416,7 +416,7 @@ var geometry = true;
 // এই নিয়মে আমরা চাইলে একটি if else এর ভিতরে আরেকটি if else বসাতে পারি ।
 if (math == true) {
   if (math == true && geometry == true) {
-    console.log("i will gainner")
+    // console.log("i will gainner")
   }
   else {
     //  আমরা এখানে চাইলে কিছু লিখতে পারি ।
@@ -424,7 +424,7 @@ if (math == true) {
 }
 else {
   if (math == false && geometry == false) {
-    console.log("i will not gainner")
+    // console.log("i will not gainner")
   }
   else {
     //  আমরা এখানে চাইলে কিছু লিখতে পারি ।
@@ -438,28 +438,28 @@ var jane_score = 95;
 var peater_score = 56;
 var jhone_score = 40;
 if (80 <= []) {
-  console.log("a grade")
+  // console.log("a grade")
 }
 else if (60 <= []) {
-  console.log("b grde")
+  // console.log("b grde")
 }
 else if (50 <= []) {
-  console.log("c grade")
+  // console.log("c grade")
 }
 else if (40 <= []) {
-  console.log("d grade")
+  // console.log("d grade")
 }
 else if (39 <= []) {
-  console.log("f grade")
+  // console.log("f grade")
 }
 
 const userinformation = "alvi";
 const userinput = "alvo";
 if (userinformation.toLocaleUpperCase == userinput.toLocaleUpperCase) {
-  console.log(true);
+  // console.log(true);
 }
 else {
-  console.log(false);
+  // console.log(false);
 }
 
 
@@ -479,8 +479,8 @@ else {
 // while loop বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 0;
 while (roastGiven < 7) {
-  console.log('rost den , please !!');
-  console.log(roastGiven);
+  // console.log('rost den , please !!');
+  // console.log(roastGiven);
   roastGiven++;
   // roastGiven = roastGiven + 1;
   // roastGiven += 1;
@@ -488,48 +488,48 @@ while (roastGiven < 7) {
 
 // for loop কে সংক্ষেপে লেখার নিয়ম ।
 for (var roastGiven = 1; roastGiven <= 10; roastGiven++) {
-  console.log(roastGiven);
+  // console.log(roastGiven);
 }
 
 /////
 
 // for loop কে আরোও সংক্ষেপে লেখার নিয়ম ।
 for (var r = 5; r <= 15; r++) {
-  console.log(r);
+  // console.log(r);
 }
 
 for (var r = 5; r <= 15; r = r + 2) {
-  console.log(r);
+  // console.log(r);
 }
 
 for (var r = 5; r <= 15; r += 2) {
-  console.log(r);
+  // console.log(r);
 }
 
 const number50 = [2, 56, 445, 645, 353, 2424, 5636, 2355];
 
 for (let i = 0; i < number50.length; i++) {
   number50[i];
-  console.log(number50);
+  // console.log(number50);
 }
 
 // while loop বিজোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 1;
 while (roastGiven <= 10) {
-  console.log(roastGiven);
+  // console.log(roastGiven);
   roastGiven = roastGiven + 2;
 }
 
 // while loop জোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
 var roastGiven = 0;
 while (roastGiven <= 10) {
-  console.log(roastGiven);
+  // console.log(roastGiven);
   roastGiven = roastGiven + 2;
 }
 
 // for loop এর দেওয়া condition পুরন না করে যদি আমরা আমাদের for loop শেষ করততে চাই তাহলে এ ক্ষেত্রে for loop এর ব্যবহার ।
 for (var i = 1; i <= 25; i++) {
-  console.log(i);
+  // console.log(i);
   if (i >= 20) {
     break;
   }
@@ -542,7 +542,7 @@ for (var i = 0; i < numbers.length; i++) {
   if (numbers > 50) {
     continue;
   }
-  console.log(numbers)
+  // console.log(numbers)
 }
 
 // break loop example
@@ -552,47 +552,47 @@ for (var i = 0; i < numbers.length; i++) {
   if (numbers > 50) {
     break;
   }
-  console.log(numbers)
+  // console.log(numbers)
 }
 
 
 // while loop reverce way তে পরিচালনা করার ক্ষেত্রে while loop এর ব্যবহার ।
 for (var num = 10; num >= 1; num--) {
-  console.log(num);
+  // console.log(num);
 
 }
 
 // while loof কে আরোও সক্ষেপে লেখার নিয়ম ।
 const al = [24, 56, 78, 45, 73, 39];
 for (const mahamud of al) {
-  console.log(al);
+  // console.log(al);
 }
 
 const ali = [24, 56, 78, 45, 73, 39];
 for (const { } of al) {
-  console.log(al);
+  // console.log(al);
 }
 
 // loop কে সংক্ষেপে লিখেতে গেলে সে ক্ষেত্রে নিচের নিয়ম লিখেতে হবে ।
 const color = ' ';
 switch (color) {
   case 'green':
-    console.log('you are green my friend');
+    // console.log('you are green my friend');
     break
   case 'blue':
-    console.log('you are blue my friend');
+    // console.log('you are blue my friend');
     break
   case 'white':
-    console.log('you are white my friend');
+    // console.log('you are white my friend');
     break
   case 'red':
-    console.log('you are red my friend');
+    // console.log('you are red my friend');
     break
   case 'yellow':
-    console.log('you are yellow my friend');
+    // console.log('you are yellow my friend');
     break
   default:
-    console.log('you are my black black friend');
+    // console.log('you are my black black friend');
 }
 
 
@@ -610,26 +610,26 @@ switch (color) {
 
 // function চালু করার সাধারণ নিয়ম ।
 function starting(money) {
-  console.log('alvi al mahmud');
-  console.log(money);
+  // console.log('alvi al mahmud');
+  // console.log(money);
 }
 starting(100)
 
 // function add করতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
 function starting(num1, num2) {
-  console.log('going to add :', num1, num2);
+  // console.log('going to add :', num1, num2);
 }
 starting(100, 200);
 
 
 function nameinfo(name1, name2) {
-  console.log('our both name is ', name1, name2)
+  // console.log('our both name is ', name1, name2)
 }
 nameinfo("alvi", "khan")
 
 // বাইরের কোন Variable কে function Paramiter এর মান হিসেবে দেখাতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
 function namedata(info) {
-  console.log('my name is', info)
+  // console.log('my name is', info)
 }
 
 var peopleName = 'alvi';
@@ -637,27 +637,27 @@ namedata(peopleName);
 
 
 function numberdata(info) {
-  console.log('my number is', info)
+  // console.log('my number is', info)
 }
 var peopleNumber = 100;
 numberdata(peopleNumber);
 
 // function একধিক মান সেট করার নিয়ম ।
 function sum(a, b, c, d, e) {
-  console.log(a, b, c, d, e);
+  // console.log(a, b, c, d, e);
   var sum = a + b + c + d + e;
-  console.log(sum);
+  // console.log(sum);
 }
 sum(23, 34, 54, 35, 64);
 
 // function এ কোন কিছু ফেরত পেতে গেলে সে ক্ষেত্রে return এর ব্যবহার ।
 function add(alvi1, alvi2) {
-  console.log(alvi1, alvi2);
+  // console.log(alvi1, alvi2);
   var sum = alvi1 + alvi2;
   return sum;
 }
 var total = add(10, 15);
-console.log('total', total)
+// console.log('total', total)
 
 // good externalpe of return function
 function egg(money) {
@@ -666,7 +666,7 @@ function egg(money) {
   return quantity;
 }
 var totalEgg = egg(300);
-console.log('totalEgg :', totalEgg);
+// console.log('totalEgg :', totalEgg);
 
 // const এর ভিতরে একাধিক মান বের করার নিয়ম ।
 
@@ -680,11 +680,11 @@ function getAvarage
   return getAvarage;
 }
 const totalAvarage = getAvarage(assigment1, assigment2, assigment3);
-console.log(totalAvarage);
+// console.log(totalAvarage);
 
 // এই arguments logic টি শধু function এর ক্ষেত্রে ব্যবহার করা যায ।
 function arguments(num1, num2) {
-  console.log(num1, num2, arguments)
+  // console.log(num1, num2, arguments)
 }
 arguments(3, 4, 3, 4, 5, 56, 43, 345, 566, 3455,)
 
@@ -695,7 +695,7 @@ function add(num1, num2) {
 var result1 = add(12, 14);
 var result1 = add(34, 43);
 const finalresult = add(result1, result1);
-console.log(finalresult);
+// console.log(finalresult);
 
 
 // importent function example.
@@ -705,11 +705,11 @@ function inchTofeet(inches) {
 }
 var dadaInches = 144;
 var dadafeet = inchTofeet(dadaInches);
-console.log(dadafeet);
+// console.log(dadafeet);
 
 var dadiInches = 144;
 var dadifeet = inchTofeet(dadiInches);
-console.log(dadifeet);
+// console.log(dadifeet);
 
 function milestone(kilometer) {
   var lenght = kilometer * 1.60934;
@@ -717,20 +717,20 @@ function milestone(kilometer) {
 }
 const mykilometer = 5;
 const mymilestone = milestone(mykilometer);
-console.log(mymilestone);
+// console.log(mymilestone);
 
 const herkilometer = 5;
 const hermilestone = milestone(herkilometer);
-console.log(hermilestone);
+// console.log(hermilestone);
 
 function isEvnt(number) {
   const eventodd = number % 2;
-  // console.log(eventodd);
+  // // console.log(eventodd);
   if (eventodd == 0) {
-    console.log('this is a event nunber =', number);
+    // console.log('this is a event nunber =', number);
   }
   else {
-    console.log('this is a odd numberc =', number);
+    // console.log('this is a odd numberc =', number);
   }
 }
 isEvnt(44);
@@ -738,10 +738,10 @@ isEvnt(44);
 function lepyear(year) {
   const YearCount = year % 4;
   if (YearCount == 0) {
-    console.log("this is a leap year =", year);
+    // console.log("this is a leap year =", year);
   }
   else {
-    console.log("this is just a normal year =", year)
+    // console.log("this is just a normal year =", year)
   }
 }
 lepyear(2022);
@@ -753,7 +753,7 @@ function getsumofanarray(numbers) {
     const index = i;
     const element = numbers[i];
     sum = sum + element;
-    console.log(index, element, sum);
+    // console.log(index, element, sum);
   }
   return sum;
 }
@@ -767,7 +767,7 @@ function getevenNumbersofAnArray(numbers) {
     const index = i;
     const element = numbers[i];
     if (element % 2 === 0) {
-      console.log(index, element);
+      // console.log(index, element);
       evennumder.push(element);
     }
   }
@@ -779,26 +779,30 @@ getevenNumbersofAnArray(MyNumbers);
 // normal fuction 
 function normalfactorial(number) {
   for (let i = 0; i <= number; i++) {
-    console.log(i)
+    // console.log(i)
   }
 }
 
 //reverce fuction
 function revrcefactiorial(number) {
   for (let i = number; i >= 1; i--) {
-    console.log(i);
+    // console.log(i);
   }
 }
 
+// factorial function
 function fatorial(number) {
   let result = 1;
   for (let i = number; i >= 1; i--) {
     result = result * i;
     console.log(i)
   }
+  return  result;
 }
-const fact = fatorial(4);
-console.log('factorial of 4', fact)
+const number1 = 6;
+const fact = fatorial(number1);
+console.log('factorial of', number1 , fact);
+
 
 // find eventodd :odd
 const my_numbers = [24, 56, 77, 45, 78, 99];
@@ -808,7 +812,7 @@ function getOddNumbersofAnArray(numbers) {
     const index = i;
     const element = numbers[i];
     if (element % 2 !== 0) {
-      console.log(index, element);
+      // console.log(index, element);
       oddnumber.push(element);
     }
   }
@@ -848,7 +852,7 @@ function sum(i) {
     return i + sum(i - 1);
 }
 const result = 5;
-console.log(result);
+// console.log(result);
 
 const result10 = foctorial1(5);
 function foctorial1(i) {
@@ -858,7 +862,7 @@ function foctorial1(i) {
   // else
   return i * foctorial1(i - 1);
 }
-console.log(result10);
+// console.log(result10);
 
 
 
@@ -889,18 +893,18 @@ var student = {
 
 // object এর মান পরিবতিন করার নিয়ম ।
 student.class = 10;
-console.log(student);
+// console.log(student);
 
 // object এর কোন একটি propaty মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
-console.log(student.information)
+// console.log(student.information)
 
 // object এর সব propaty এর নাম Array এর ভিতরে String আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
 var proparts = Object.keys(student);
-console.log(proparts);
+// console.log(proparts);
 
 //object এর সব propaty এর মান Array এর ভিতরে মান আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
 var proparty = Object.values(student);
-console.log(proparty);
+// console.log(proparty);
 
 // importent object example.
 
@@ -918,15 +922,15 @@ var shoppingcart = {
 
 // long term
 var keys = Object.keys(shoppingcart);
-console.log(keys);
+// console.log(keys);
 
 var values = Object.values(shoppingcart);
-console.log(values);
+// console.log(values);
 
 for (i = 0; i < keys.length; i++) {
   var propartyinformation = keys[i];
   var propatyValue = values[i];
-  console.log(propartyinformation, propatyValue);
+  // console.log(propartyinformation, propatyValue);
 }
 
 // short term
@@ -942,11 +946,11 @@ var shoppingcart = {
 
 for (var propartyinformation in shoppingcart) {
   const values = shoppingcart[propartyinformation];
-  console.log(propartyinformation, values);
+  // console.log(propartyinformation, values);
 }
 
 var Array = ['alvi :', 54, 'apu :', 45];
-console.log(Array);
+// console.log(Array);
 
 var shoppingcart = {
   books: 3,
@@ -957,7 +961,7 @@ var shoppingcart = {
   shoes: 2,
   bottle: 1,
 }
-console.log(shoppingcart);
+// console.log(shoppingcart);
 
 const products = [
   { id: 1, Productsinformation: "xiani phones", productsPrice: 1500 },
@@ -980,6 +984,6 @@ function machedProducts(products, search) {
   return mached;
 }
 const result25 = machedProducts(products, "phones");
-console.log(result25);
+// console.log(result25);
 
                                               //JAVASCRIPT Basic Toturial END
