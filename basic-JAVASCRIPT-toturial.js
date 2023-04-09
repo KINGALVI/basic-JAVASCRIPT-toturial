@@ -344,7 +344,7 @@ const join = nameinformation.join('=')
 // console.log(join);
 
 // the use of power math in  in javscript
-// var math1 =pow(3, 8);
+const math1 =pow(3, 8);
 // // console.log(math1);
 
 
