@@ -1,4 +1,4 @@
-// javascript এর code কাজ করছে নাকি তা পরিক্ষা করা যায 
+// javascript এর code কাজ করছে নাকি তা পরিক্ষা করার নিযম ।
 // console.log(5);
 
 
@@ -144,6 +144,22 @@ var num1 = 0.1;
 var num2 = 0.2;
 var math = num1 + num2;
 math = math.toFixed(2)
+
+// যদি দুইটি Variable এর মান আদল বদল করতে হয় , তাহলে সে ক্ষেত্রে var এর ব্যবহার ।
+//
+var firstinput = 10;
+var secoendinput = 5;
+
+var swap = secoendinput;
+secoendinput = firstinput;
+firstinput = swap;
+console.log(firstinput, secoendinput)
+
+// useing Destructurcing for swap Variable input
+var firstinput = 10;
+var secoendinput = 5;
+[firstinput, secoendinput] = [secoendinput, firstinput]
+console.log(firstinput, secoendinput)
 
 // var এর কোন মানটি সংখ্যা , কোন মানটি string এবং কোন মানটি boolean ক্ষেত্রে var এর ব্যবহার;
 var price = 100;
