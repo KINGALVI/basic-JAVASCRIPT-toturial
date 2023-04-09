@@ -364,7 +364,9 @@ const nonumberresult3 = Math.floor(nonumber);
 
 // JavaScript এ আমরা যেকোন Random সংখ্যা পেতে চাই , তাহলে সে যে Code টা ব্যবহার করতে হবে । 
 const anynumber = Math.random();
+const wishnumber = Math.random()*100; 
 // console.log(anynumber);
+// console.log(wishnumber);
 
 
 
