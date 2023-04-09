@@ -338,6 +338,11 @@ const paragraph7 = 'my information is  alvi .'; 'i want to de a good fu'; 'llsta
 const ifexgiest7 = paragraph7.slice('');
 // console.log(ifexgiest8);
 
+// আলাদা আলাদা থাকা String কে যদি জোড়া লাগেতে হয় , তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
+const nameinformation = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+const join = nameinformation.join('=')
+// console.log(join);
+
 // the use of power math in  in javscript
 // var math1 =pow(3, 8);
 // // console.log(math1);
