@@ -344,7 +344,7 @@ const join = nameinformation.join('=')
 // console.log(join);
 
 // the use of power math in  in javscript
-const math1 =pow(3, 8);
+const math1 = pow(3, 8);
 // // console.log(math1);
 
 // কোন let const এর মান positive বা negitive এ আছে নাকি সেটা না দেখে যদি প্রকৃত ফলাফল পেতে চাই তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
@@ -364,9 +364,15 @@ const nonumberresult3 = Math.floor(nonumber);
 
 // JavaScript এ আমরা যেকোন Random সংখ্যা পেতে চাই , তাহলে সে যে Code টা ব্যবহার করতে হবে । 
 const anynumber = Math.random();
-const wishnumber = Math.random()*100; 
 // console.log(anynumber);
+
+const wishnumber = Math.random() * 100;
 // console.log(wishnumber);
+
+const goodnumber = Math.round(Math.random() * 100);
+// console.log(goodnumber);
+
+
 
 
 
