@@ -321,7 +321,7 @@ var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
 element = informations.shift();
 // console.log(element);
 
-// কোন string এর sentence কে যদি আমারা ভাগ করে দেখেতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
+// কোন string ভিতরে sentence এর word কে যদি আমারা array মত ভাগ করে দেখেতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
 const paragraph4 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
 const ifexgiest4 = paragraph4.split(' ');
 // console.log(ifexgiest4);
@@ -346,6 +346,12 @@ const join = nameinformation.join('=')
 // the use of power math in  in javscript
 const math1 =pow(3, 8);
 // // console.log(math1);
+
+// কোন let const এর মান positive বা negitive এ আছে নাকি সেটা না দেখে যদি প্রকৃত ফলাফল পেতে চাই তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
+const mark1 = 50;
+const mark2 = 100;
+const allmark = Math.abs(mark1 - mark2);
+console.log(allmark);
 
 
 
