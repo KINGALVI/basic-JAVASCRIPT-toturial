@@ -155,7 +155,7 @@ var price = '100';
 var true_false = true;
 // console.log(typeof true_false);
 
-// let constant এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি সব আক্ষর কে যদি ছোট হাতের বা বড় হাতের করতে হয় তাহলে সে ক্ষত্রে let constant এর ব্যবহার ।
+// let constant এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি সব আক্ষর কে যদি ছোট হাতের বা বড় হাতের করতে হয় তাহলে সে ক্ষত্রে let constant ব্যবহার এর নিয়ম।
 const paragraphone = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiestone = paragraphone.toLowerCase('my');
 console.log(ifexgiestone);
@@ -163,7 +163,7 @@ console.log(ifexgiestone);
 const paragraphtwo = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiesttwo = paragraphtwo.toUpperCase('my');
 
-// let constant এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র var  ব্যবহার এর নিয়ম ।
+// let constant এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র let constant ব্যবহার এর নিয়ম ।
 const paragraph1 = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiest1 = paragraph1.includes("fullstack")
 // console.log(ifexgiest1);
