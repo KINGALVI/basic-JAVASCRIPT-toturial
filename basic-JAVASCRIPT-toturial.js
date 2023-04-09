@@ -158,7 +158,7 @@ var true_false = true;
 // let constant এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি সব আক্ষর কে যদি ছোট হাতের বা বড় হাতের করতে হয় তাহলে সে ক্ষত্রে let constant ব্যবহার এর নিয়ম।
 const paragraphone = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiestone = paragraphone.toLowerCase('my');
-console.log(ifexgiestone);
+// console.log(ifexgiestone);
 
 const paragraphtwo = 'my information is alvi i want to de a good fullstack wed devoloper';
 const ifexgiesttwo = paragraphtwo.toUpperCase('my');
@@ -344,14 +344,14 @@ const join = nameinformation.join('=')
 // console.log(join);
 
 // the use of power math in  in javscript
-const math1 = pow(3, 8);
-// // console.log(math1);
+const math1 = Math.pow(3, 8);
+// console.log(math1);
 
 // কোন let const এর মান positive বা negitive এ আছে নাকি সেটা না দেখে যদি প্রকৃত ফলাফল পেতে চাই তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
 const mark1 = 50;
 const mark2 = 100;
 const allmark = Math.abs(mark1 - mark2);
-console.log(allmark);
+// console.log(allmark);
 
 // কোন let const এর দশমিক সংখ্যাওযলা মান কে যদি আমরা পূন সংখ্যা আকারে পেতে চাই , তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
 const nonumber = 2.43434;
@@ -836,13 +836,13 @@ function fatorial1(number) {
   let result = 1;
   for (let i = number; i >= 1; i--) {
     result = result * i;
-    console.log(i)
+    // console.log(i)
   }
   return result;
 }
 const number1 = 5;
 const fact1 = fatorial1(number1);
-console.log('factorial of', number1, fact1);
+// console.log('factorial of', number1, fact1);
 
 //factorial while loop fuction
 function factorial2(number) {
@@ -856,7 +856,7 @@ function factorial2(number) {
 }
 const number2 = 10;
 const fact2 = factorial2(number2);
-console.log('factoaril2 of', number2, fact2);
+// console.log('factoaril2 of', number2, fact2);
 
 
 // find eventodd :odd
