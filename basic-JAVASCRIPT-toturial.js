@@ -338,6 +338,10 @@ const paragraph7 = 'my information is  alvi .'; 'i want to de a good fu'; 'llsta
 const ifexgiest7 = paragraph7.slice('.');
 // console.log(ifexgiest7);
 
+const paragraph8 = 'my information is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
+const ifexgiest8 = paragraph8.slice('');
+// console.log(ifexgiest8);
+
 // the use of power math in  in javscript
 // var math1 =pow(3, 8);
 // // console.log(math1);
