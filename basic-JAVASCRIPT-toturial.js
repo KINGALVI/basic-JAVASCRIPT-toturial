@@ -355,7 +355,9 @@ console.log(allmark);
 
 // কোন let const এর দশমিক সংখ্যাওযলা মান কে যদি আমরা পূন সংখ্যা আকারে পেতে চাই , তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
 const nonumber = 2.43434;
-const nonumberresult = Math.round(nonumber);
+const nonumberresult1 = Math.round(nonumber);
+const nonumberresult2 = Math.ceil(nonumber);
+const nonumberresult3 = Math.floor(nonumber);
 // console.log(nonumberresult);
 
 
