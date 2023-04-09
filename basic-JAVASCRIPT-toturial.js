@@ -323,23 +323,19 @@ element = informations.shift();
 
 // কোন string এর sentence কে যদি আমারা ভাগ করে দেখেতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
 const paragraph4 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
-const ifexgiest4 = paragraph4.split(" ");
+const ifexgiest4 = paragraph4.split(' ');
 // console.log(ifexgiest4);
 
 const paragraph5 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
-const ifexgiest5 = paragraph5.split(".");
+const ifexgiest5 = paragraph5.split('.');
 // console.log(ifexgiest5);
 
 const paragraph6 = ['my information is  alvi  i want to de a good fullstack wed devoloper'];
-const ifexgiest6 = paragraph6.join(':');
+const ifexgiest6 = paragraph6.join(',');
 // console.log(ifexgiest6);
 
 const paragraph7 = 'my information is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
-const ifexgiest7 = paragraph7.slice('.');
-// console.log(ifexgiest7);
-
-const paragraph8 = 'my information is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
-const ifexgiest8 = paragraph8.slice('');
+const ifexgiest7 = paragraph7.slice('');
 // console.log(ifexgiest8);
 
 // the use of power math in  in javscript
