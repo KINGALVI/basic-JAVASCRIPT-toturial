@@ -388,6 +388,19 @@ const wishnumber = Math.random() * 100;
 const goodnumber = Math.round(Math.random() * 100);
 // console.log(goodnumber);
 
+// এক গুচ্ছো সংখ্যা এর মধ্যে কোনটা ছোট বড় সেটা বের করতে চাইলে সে ক্ষত্রে var const এর ব্যবহার ।
+//
+const bignumber = [25, 50, 100];
+const bignumberresult = Math.max(bignumber);
+// console.log(bignumberresult);
+
+//
+const smallnumber = [25, 50, 100];
+const smallnumberresult = Math.min(smallnumber);
+// console.log(smallnumberresult);
+
+
+
 
 
 
@@ -529,6 +542,10 @@ else {
 
 
 
+
+
+
+
 // ৪। javascript এ loop যেভাবে কাজ করে ।
 
 /////
@@ -651,6 +668,10 @@ switch (color) {
   default:
   // console.log('you are my black black friend');
 }
+
+
+
+
 
 
 
