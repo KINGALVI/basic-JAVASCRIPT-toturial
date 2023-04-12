@@ -223,6 +223,11 @@ var num2 = 100;
 
 // ২ । javascript এ Array এর ব্যবহার ।
 
+//কোন Variable Array কিন সেটা বের করার জন্য যা কতে হবে ।
+const bd = [12, 44, 55, 43, 33];
+// console.log(Array.isArray(bd));
+
+
 // সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
 var age = [11, 12, 13, 14, 15];
 // console.log(age);
