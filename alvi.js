@@ -1,26 +1,31 @@
-const lagest = [100, 200, 300, 400, 500]
+//largest number
+
+const lagest = [673, 3747, 574, 2748, 375, 3893, 373, 5873, 500, 8558];
 
 function lagestSum(lagestNumber) {
-    let larger = lagestNumber[0];
+  let larger = lagestNumber[0];
+  let largerNumbers = [];
 
-    for (let i = 0; i < lagestNumber.length; i++) {
-        const index = i;
-        const element = lagestNumber[index];
-        if (element > lagestNumber) {
-            lagestNumber = element;
-        }
+  for (let i = 0; i < lagestNumber.length; i++) {
+    const index = i;
+    const element = lagestNumber[index];
+    if (element > larger) {
+      larger = element;
+      largerNumbers.push(element);
     }
+  }
 
-    return larger;
+  return largerNumbers;
 }
 
 const lagestResult = lagestSum(lagest);
-// console.log(lagestResult);
+console.log(lagestResult);
 
 
 
 
 
+//fibo math
 const fibo = [0, 1];
 
 for (let i = 2; i <= 12; i++) {
