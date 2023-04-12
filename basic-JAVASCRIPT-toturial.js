@@ -227,6 +227,14 @@ var num2 = 100;
 const bd = [12, 44, 55, 43, 33];
 // console.log(Array.isArray(bd));
 
+//কোন দুইটি Array কে একসাথে জোড়া লাগাতে হলে , সে ক্ষেত্রে যা করতে হবে ।
+const conected1 = [12, 44, 55, 43, 33];
+const conected2 = [12, 44, 55, 43, 33];
+const connection = conected1.concat(conected2);
+// console.log(connection);
+
+
+
 
 // সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
 var age = [11, 12, 13, 14, 15];
