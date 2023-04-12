@@ -35,7 +35,7 @@ for (let i = 2; i <= 12; i++) {
 
 // includs example ;
 
-const names = ['abul', 'babul', 'clbul', 'dabul', 'ebul', 'babul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul'];
+const names = ['abul', 'babul', 'cabul', 'dabul', 'ebul', 'babul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul'];
 
 function removeDuplicate(names) {
     const unique = [];
@@ -51,4 +51,4 @@ function removeDuplicate(names) {
 }
 
 const newNameList = removeDuplicate(names);
-console.log(newNameList);
+// console.log(newNameList);
