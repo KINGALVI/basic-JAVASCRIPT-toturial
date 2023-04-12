@@ -363,8 +363,12 @@ const paragraph6 = ['my information is  alvi  i want to de a good fullstack wed 
 const ifexgiest6 = paragraph6.join(',');
 // console.log(ifexgiest6);
 
-const paragraph7 = 'my information is  alvi .'; 'i want to de a good fu'; 'llstack wed devoloper';
+const paragraph7 = ['my information is  alvi .' ,'i want to de a good fu' ,'llstack wed devoloper'];
 const ifexgiest7 = paragraph7.slice('');
+// console.log(ifexgiest7);
+
+const paragraph8 = ['my information is  alvi .', 'i want to de a good fu', 'llstack wed devoloper'];
+const ifexgiest8 = paragraph8.splice( 5 , 7);
 // console.log(ifexgiest8);
 
 // আলাদা আলাদা থাকা String কে যদি জোড়া লাগেতে হয় , তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
