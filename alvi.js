@@ -191,7 +191,7 @@ const mySelection = cheapestPhone(phone);
 
 
 
-// Ticket Discount
+// Ticket Discount Math
 
 
 const totalTicketPeople = 250;
