@@ -1,4 +1,4 @@
-//largest Number Math
+//// largest Number Math
 
 
 const lagest = [673, 3747, 574, 2748, 375, 3893, 373, 5873, 500, 8558];
@@ -33,7 +33,7 @@ const lagestResult = lagestSum(lagest);
 
 
 
-//fibo Math
+//// fibo Math
 
 
 const fibo = [0, 1];
@@ -55,7 +55,7 @@ for (let i = 2; i <= 12; i++) {
 
 
 
-// Includs example 
+//// Includs example 
 
 const names = ['abul', 'babul', 'cabul', 'dabul', 'ebul', 'babul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul'];
 
@@ -86,7 +86,7 @@ const newNameList = removeDuplicate(names);
 
 
 
-//foo + bar = foobar 
+//// foo + bar = foobar 
 
 
 for (let i = 0; i <= 50; i++) {
@@ -113,7 +113,7 @@ for (let i = 0; i <= 50; i++) {
 
 
 
-// Wood Calculator Math
+//// Wood Calculator Math
 
 
 const totalChair = 5;
@@ -153,7 +153,7 @@ const totoalWoodCalculatorResult = woodCalculator(totalChair, totalTable, totalB
 
 
 
-// Cheapest Phone Math
+//// Cheapest Phone Math
 
 
 const phone = [
@@ -191,18 +191,55 @@ const mySelection = cheapestPhone(phone);
 
 
 
-// Ticket Discount Math
+//// Ticket Discount Math
 
 
-const totalTicketPeople = 250;
+// easy solution
 
 
-if (totalTicketPeople < 100) {
-  // console.log('per ticket price is 100tk');
+const totalTicketPeople = [0];
+
+
+if (totalTicketPeople <= 100) {
+  // console.log(`total ticket price is ${totalTicketPeople * 100}tk`);
 }
-else if (totalTicketPeople > 100 && totalTicketPeople < 200) {
-  // console.log('pre ticket price is 90tk');
+else if (totalTicketPeople > 100 && totalTicketPeople <= 200) {
+  // console.log(`total ticket price is ${totalTicketPeople * 90}tk`);
 }
 else {
-  // console.log('per ticket price is 70tk');
+  // console.log(`total ticket price is ${totalTicketPeople * 70}tk`);
 }
+
+
+//advance solution
+
+
+const TotalTicketPeople = [0];
+
+
+function ticketPrice(ticketQuantity) {
+
+  const first100Rate = 100;
+  const secoend100To200Rate = 90;
+  const restTicketRate = 70;
+
+
+  if (ticketQuantity <= 100) {
+    const price = ticketQuantity * first100Rate;
+    return price;
+  }
+  else if (ticketQuantity >= 100 && ticketQuantity <= 200) {
+    const price = ticketQuantity * secoend100To200Rate;
+    return price;
+  }
+  else {
+    const price = ticketQuantity * restTicketRate;
+    return price;
+  }
+
+
+}
+
+
+const totalPrice = ticketPrice(TotalTicketPeople);
+// console.log(totalPrice);
