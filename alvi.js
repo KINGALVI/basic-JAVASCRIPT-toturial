@@ -91,6 +91,7 @@ const totalBed = 15;
 
 function woodCalculator(chairQuantity, tableQuantity, bedQantity) {
 
+
   const perChairQuantity = chairQuantity * 3;
   // console.log(`total Chair woood requerment is ${perChairQuantity}cft`);
 
@@ -100,7 +101,14 @@ function woodCalculator(chairQuantity, tableQuantity, bedQantity) {
   const perBedQuantity = bedQantity * 50;
   // console.log(`total Tabel woood requerment is ${perBedQuantity}cft`);
 
+
+  return {
+    totalChairWood : perChairQuantity,
+    toalTableWood : perTableQuantity,
+    totalBedWood : perBedQuantity
+  }
 }
 
 
-woodCalculator(totalChair, totalTable, totalBed);
+const totoalWoodCalculatorResult = woodCalculator(totalChair, totalTable, totalBed);
+// console.log(totoalWoodCalculatorResult);
