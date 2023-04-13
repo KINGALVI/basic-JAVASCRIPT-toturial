@@ -1,5 +1,12 @@
+                                              // Normal JAVASCRIPT Toturial START
+
+
+
+
+
 // javascript এর code কাজ করছে নাকি তা পরিক্ষা করার নিযম ।
 // console.log(5);
+
 
 
 
@@ -221,6 +228,20 @@ var num2 = 100;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ২ । javascript এ Array এর ব্যবহার ।
 
 //কোন Variable Array কিন সেটা বের করার জন্য যা কতে হবে ।
@@ -232,9 +253,6 @@ const conected1 = [12, 44, 55, 43, 33];
 const conected2 = [12, 44, 55, 43, 33];
 const connection = conected1.concat(conected2);
 // console.log(connection);
-
-
-
 
 // সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
 var age = [11, 12, 13, 14, 15];
@@ -431,6 +449,14 @@ const smallnumberresult = Math.min(smallnumber);
 
 
 
+
+
+
+
+
+
+
+
 // ৩। javascript এ condisonal যেভাবে কাজ করে ।
 
 //  *১ নিয়ম 
@@ -548,6 +574,15 @@ if (userinformation.toLocaleUpperCase == userinput.toLocaleUpperCase) {
 else {
   // console.log(false);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -685,6 +720,14 @@ switch (color) {
   default:
   // console.log('you are my black black friend');
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -990,6 +1033,12 @@ function foctorial1(i) {
 
 
 
+
+
+
+
+
+
 // ৬। javascript এ objecct যেভাবে কাজ করে ।
 
 // সাধারনত objecct যেভাবে লিখে ।
@@ -1095,4 +1144,8 @@ function machedProducts(products, search) {
 const result25 = machedProducts(products, "phones");
 // console.log(result25);
 
-                                              //JAVASCRIPT Basic Toturial END
+
+
+
+
+                                              // Normal JAVASCRIPT Toturial END
