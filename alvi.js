@@ -19,7 +19,7 @@ function lagestSum(lagestNumber) {
 }
 
 const lagestResult = lagestSum(lagest);
-console.log(lagestResult);
+// console.log(lagestResult);
 
 
 
@@ -57,3 +57,24 @@ function removeDuplicate(names) {
 
 const newNameList = removeDuplicate(names);
 // console.log(newNameList);
+
+
+
+
+
+//foo + bar = foobar 
+
+for(let i = 0; i <= 50; i++){
+  if (i % 3 === 0 && i % 5 === 0 ){
+    console.log('foobar');
+   }
+ else if(i % 3=== 0){
+  console.log('bar');
+ }
+ else if (i % 5 === 0 ){
+  console.log('foobar');
+ }
+  else{
+    console.log(i);
+  }
+}
