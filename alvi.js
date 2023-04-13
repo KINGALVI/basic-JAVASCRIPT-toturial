@@ -1,6 +1,8 @@
 //largest Number Math
 
+
 const lagest = [673, 3747, 574, 2748, 375, 3893, 373, 5873, 500, 8558];
+
 
 function lagestSum(lagestNumber) {
   let larger = lagestNumber[0];
@@ -18,6 +20,7 @@ function lagestSum(lagestNumber) {
   return largerNumbers;
 }
 
+
 const lagestResult = lagestSum(lagest);
 // console.log(lagestResult);
 
@@ -32,11 +35,14 @@ const lagestResult = lagestSum(lagest);
 
 //fibo Math
 
+
 const fibo = [0, 1];
+
 
 for (let i = 2; i <= 12; i++) {
   fibo[i] = fibo[i - 1] + fibo[i - 2];
 }
+
 
 // console.log(fibo);
 
@@ -49,9 +55,10 @@ for (let i = 2; i <= 12; i++) {
 
 
 
-// Includs example ;
+// Includs example 
 
 const names = ['abul', 'babul', 'cabul', 'dabul', 'ebul', 'babul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul'];
+
 
 function removeDuplicate(names) {
   const unique = [];
@@ -66,6 +73,7 @@ function removeDuplicate(names) {
   return unique;
 }
 
+
 const newNameList = removeDuplicate(names);
 // console.log(newNameList);
 
@@ -79,6 +87,7 @@ const newNameList = removeDuplicate(names);
 
 
 //foo + bar = foobar 
+
 
 for (let i = 0; i <= 50; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
@@ -106,9 +115,11 @@ for (let i = 0; i <= 50; i++) {
 
 // Wood Calculator Math
 
+
 const totalChair = 5;
 const totalTable = 10;
 const totalBed = 15;
+
 
 function woodCalculator(chairQuantity, tableQuantity, bedQantity) {
 
@@ -124,9 +135,9 @@ function woodCalculator(chairQuantity, tableQuantity, bedQantity) {
 
 
   return {
-    totalChairWood : perChairQuantity,
-    toalTableWood : perTableQuantity,
-    totalBedWood : perBedQuantity
+    totalChairWood: perChairQuantity,
+    toalTableWood: perTableQuantity,
+    totalBedWood: perBedQuantity
   }
 }
 
@@ -142,3 +153,56 @@ const totoalWoodCalculatorResult = woodCalculator(totalChair, totalTable, totalB
 
 
 
+// Cheapest Phone Math
+
+
+const phone = [
+  { phoneName: 'Samsumg', camera: 12, stroage: '32gb', price: 36000, color: 'silver' },
+  { phoneName: 'Walton', camera: 10, stroage: '32gb', price: 22000, color: 'silver' },
+  { phoneName: 'Iphone', camera: 10, stroage: '32gb', price: 82000, color: 'silver' },
+  { phoneName: 'Xaomi', camera: 10, stroage: '32gb', price: 52000, color: 'silver' },
+  { phoneName: 'Oppo', camera: 10, stroage: '32gb', price: 20000, color: 'silver' },
+  { phoneName: 'Nokia', camera: 10, stroage: '32gb', price: 44000, color: 'silver' },
+  { phoneName: 'HTC', camera: 10, stroage: '32gb', price: 62000, color: 'silver' },
+]
+
+
+function cheapestPhone(Phones) {
+  let cheapest = phone[0];
+  const cheapestPhone = [];
+
+  for (let i = 0; i < Phones.length; i++) {
+    const phone = Phones[i];
+
+    if (phone.price < cheapest.price) {
+      cheapest = phone;
+      cheapestPhone.push(phone);
+    }
+  }
+
+  return cheapestPhone;
+}
+
+
+const mySelection = cheapestPhone(phone);
+// console.log(mySelection);
+
+
+
+
+
+// Ticket Discount
+
+
+const totalTicketPeople = 250;
+
+
+if (totalTicketPeople < 100) {
+  // console.log('per ticket price is 100tk');
+}
+else if (totalTicketPeople > 100 && totalTicketPeople < 200) {
+  // console.log('pre ticket price is 90tk');
+}
+else {
+  // console.log('per ticket price is 70tk');
+}
