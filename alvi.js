@@ -25,6 +25,11 @@ const lagestResult = lagestSum(lagest);
 
 
 
+
+
+
+
+
 //fibo Math
 
 const fibo = [0, 1];
@@ -34,6 +39,11 @@ for (let i = 2; i <= 12; i++) {
 }
 
 // console.log(fibo);
+
+
+
+
+
 
 
 
@@ -63,6 +73,11 @@ const newNameList = removeDuplicate(names);
 
 
 
+
+
+
+
+
 //foo + bar = foobar 
 
 for (let i = 0; i <= 50; i++) {
@@ -79,6 +94,12 @@ for (let i = 0; i <= 50; i++) {
     // console.log(i);
   }
 }
+
+
+
+
+
+
 
 
 
@@ -112,3 +133,12 @@ function woodCalculator(chairQuantity, tableQuantity, bedQantity) {
 
 const totoalWoodCalculatorResult = woodCalculator(totalChair, totalTable, totalBed);
 // console.log(totoalWoodCalculatorResult);
+
+
+
+
+
+
+
+
+
