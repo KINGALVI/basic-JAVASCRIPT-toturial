@@ -1,4 +1,4 @@
-                                              // Normal JAVASCRIPT Toturial START
+// Normal JAVASCRIPT Toturial START
 
 
 
@@ -381,12 +381,12 @@ const paragraph6 = ['my information is  alvi  i want to de a good fullstack wed 
 const ifexgiest6 = paragraph6.join(',');
 // console.log(ifexgiest6);
 
-const paragraph7 = ['my information is  alvi .' ,'i want to de a good fu' ,'llstack wed devoloper'];
+const paragraph7 = ['my information is  alvi .', 'i want to de a good fu', 'llstack wed devoloper'];
 const ifexgiest7 = paragraph7.slice('');
 // console.log(ifexgiest7);
 
 const paragraph8 = ['my information is  alvi .', 'i want to de a good fu', 'llstack wed devoloper'];
-const ifexgiest8 = paragraph8.splice( 5 , 7 ,'after revomeing if we want to add some number or string , we can add here');
+const ifexgiest8 = paragraph8.splice(5, 7, 'after revomeing if we want to add some number or string , we can add here');
 // console.log(ifexgiest8);
 
 // আলাদা আলাদা থাকা String কে যদি জোড়া লাগেতে হয় , তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
@@ -617,12 +617,18 @@ for (var roastGiven = 1; roastGiven <= 10; roastGiven++) {
   // console.log(roastGiven);
 }
 
+// for of loop লেখার নিয়ম ।
+const ofLoopNumber = [12, 34, 56, 78, 90]
+for (const indexOfLoopNumber of ofLoopNumber){
+  console.log(indexOfLoopNumber);
+}
+
 /////
 
 // for loop কে আরোও সংক্ষেপে লেখার নিয়ম ।
 for (var r = 5; r <= 15; r++) {
-  // console.log(r);
-}
+    // console.log(r);
+  }
 
 for (var r = 5; r <= 15; r = r + 2) {
   // console.log(r);
