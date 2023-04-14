@@ -5,7 +5,7 @@
 
 
 // javascript এর code কাজ করছে নাকি তা পরিক্ষা করার নিযম ।
-// console.log(5);
+// console.log(5 , 'Hello JavaScript' , 5);
 
 
 
