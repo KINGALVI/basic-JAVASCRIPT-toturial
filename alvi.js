@@ -287,10 +287,14 @@ const theSum = 5;
 
 
 function sum(i) {
+
   if (i == 1) {
     return 1;
   }
-  return i + sum(i - 1);
+  else{
+    return i + sum(i - 1);
+  }
+  
 }
 
 const sumResult = sum(theSum);
