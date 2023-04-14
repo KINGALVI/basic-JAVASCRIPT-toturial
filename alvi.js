@@ -243,3 +243,25 @@ function ticketPrice(ticketQuantity) {
 
 const totalPrice = ticketPrice(TotalTicketPeople);
 // console.log(totalPrice);
+
+
+
+
+
+////
+
+
+let sum1 = 0;
+
+for(let i = 1; i <= 5; i++){
+  sum1 = sum1 + i;
+}
+console.log(sum1);
+
+
+let sum2 = 0;
+
+for(let i = 5; i >= 1; i--){
+  sum2 = sum2 + i;
+}
+console.log(sum2);
