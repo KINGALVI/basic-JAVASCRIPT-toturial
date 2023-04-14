@@ -55,7 +55,7 @@ for (let i = 2; i <= 12; i++) {
 
 
 
-//// Includs example 
+//// Includs example 1
 
 const names = ['abul', 'babul', 'cabul', 'dabul', 'ebul', 'babul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul'];
 
@@ -293,7 +293,7 @@ function sum(i) {
   if (i == 1) {
     return 1;
   }
-  else{
+  else {
     return i + sum(i - 1);
   }
 
@@ -313,7 +313,7 @@ function sum(i) {
   if (i == 1) {
     return 1;
   }
-  else{
+  else {
     return i * sum(i - 1);
   }
 
@@ -321,3 +321,50 @@ function sum(i) {
 
 const sumResult2 = sum(theSum2);
 // console.log(sumResult2);
+
+
+
+
+
+
+
+
+
+
+//// Includs example 2 ( The best example of includes )
+
+
+const products = [
+  { id: 1, Productsinformation: "xiani phones", productsPrice: 1500 },
+  { id: 2, Productsinformation: "samsumg phones", productsPrice: 1500 },
+  { id: 3, Productsinformation: "iphone phones", productsPrice: 1500 },
+  { id: 4, Productsinformation: "premax phones", productsPrice: 1500 },
+  { id: 5, Productsinformation: "xiani lapTop", productsPrice: 1500 },
+  { id: 6, Productsinformation: "samsumg lapTop", productsPrice: 1500 },
+  { id: 7, Productsinformation: "iphone lapTop", productsPrice: 1500 },
+  { id: 8, Productsinformation: "premax lapTop", productsPrice: 1500 }
+];
+
+
+function machedProducts(products, search) {
+
+
+  const mached = [];
+
+
+  for (const product of products) {
+
+    if ((product.Productsinformation.includes(search)) === true) {
+      mached.push(product);
+    }
+
+  }
+
+
+  return mached;
+
+
+}
+
+const productResult = machedProducts(products, "phones");
+// console.log(productResult);
