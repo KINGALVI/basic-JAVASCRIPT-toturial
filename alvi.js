@@ -280,7 +280,7 @@ for (let i = 5; i >= 1; i--) {
 
 
 
-//// hwo to call a fuction into the function area 
+//// the example of old verstion loop 
 
 
 const theSum = 5;
@@ -294,7 +294,7 @@ function sum(i) {
   else{
     return i + sum(i - 1);
   }
-  
+
 }
 
 const sumResult = sum(theSum);
