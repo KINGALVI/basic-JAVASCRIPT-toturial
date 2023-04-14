@@ -354,7 +354,7 @@ function machedProducts(products, search) {
 
   for (const product of products) {
 
-    if ((product.Productsinformation.toLowerCase().includes(search.toLowerCase())) === true) {
+    if ((product.Productsinformation.toUpperCase().includes(search.toUpperCase())) === true) {
       mached.push(product);
     }
 
@@ -366,5 +366,5 @@ function machedProducts(products, search) {
 
 }
 
-const productResult = machedProducts(products, "PHONES");
+const productResult = machedProducts(products, "phones");
 console.log(productResult);
