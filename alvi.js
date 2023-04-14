@@ -334,7 +334,9 @@ const sumResult2 = sum(theSum2);
 //// Includs example 2 ( The best example of includes )
 
 
-const products = [
+// ToUpperCase Includes
+
+const products1 = [
   { id: 1, Productsinformation: "xiani phones", productsPrice: 1500 },
   { id: 2, Productsinformation: "samsumg phones", productsPrice: 1500 },
   { id: 3, Productsinformation: "iphone phones", productsPrice: 1500 },
@@ -366,5 +368,43 @@ function machedProducts(products, search) {
 
 }
 
-const productResult = machedProducts(products, "phones");
-console.log(productResult);
+const productResult1 = machedProducts(products1, "phones");
+console.log(productResult1);
+
+
+// ToLowerCase Includes
+
+const products2 = [
+  { id: 1, Productsinformation: "xiani phones", productsPrice: 1500 },
+  { id: 2, Productsinformation: "samsumg phones", productsPrice: 1500 },
+  { id: 3, Productsinformation: "iphone phones", productsPrice: 1500 },
+  { id: 4, Productsinformation: "premax phones", productsPrice: 1500 },
+  { id: 5, Productsinformation: "xiani lapTop", productsPrice: 1500 },
+  { id: 6, Productsinformation: "samsumg lapTop", productsPrice: 1500 },
+  { id: 7, Productsinformation: "iphone lapTop", productsPrice: 1500 },
+  { id: 8, Productsinformation: "premax lapTop", productsPrice: 1500 }
+];
+
+
+function machedProducts(products, search) {
+
+
+  const mached = [];
+
+
+  for (const product of products) {
+
+    if ((product.Productsinformation.toLowerCase().includes(search.toLowerCase())) === true) {
+      mached.push(product);
+    }
+
+  }
+
+
+  return mached;
+
+
+}
+
+const productResult2 = machedProducts(products2, "PHONES");
+console.log(productResult2);
