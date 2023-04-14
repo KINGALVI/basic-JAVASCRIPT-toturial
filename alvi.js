@@ -283,7 +283,9 @@ for (let i = 5; i >= 1; i--) {
 //// the example of old verstion loop 
 
 
-const theSum = 5;
+//
+
+const theSum1 = 5;
 
 
 function sum(i) {
@@ -297,5 +299,25 @@ function sum(i) {
 
 }
 
-const sumResult = sum(theSum);
-// console.log(sumResult);
+const sumResult1 = sum(theSum1);
+// console.log(sumResult1);
+
+
+//
+
+const theSum2 = 5;
+
+
+function sum(i) {
+
+  if (i == 1) {
+    return 1;
+  }
+  else{
+    return i * sum(i - 1);
+  }
+
+}
+
+const sumResult2 = sum(theSum2);
+// console.log(sumResult2);
