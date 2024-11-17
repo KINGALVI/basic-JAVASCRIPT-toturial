@@ -1,11 +1,11 @@
-// Normal JAVASCRIPT Toturial START
+                                              // Normal JAVASCRIPT Toturial START //
 
 
 
 
 
-// javascript এর code কাজ করছে নাকি তা পরিক্ষা করার নিযম ।
-// console.log(5 , 'Hello JavaScript' , 5);
+//// javascript এর code কাজ করছে নাকি তা পরিক্ষা করার নিযম ////
+ console.log(5 , 'Hello JavaScript' , 5);
 
 
 
@@ -16,7 +16,7 @@
 
 
 
-// ১ । javascript এ var এর ব্যবহার ।
+//// ১ । javascript এ var এর ব্যবহার ।
 
 // সংখ্যা ক্ষেত্রে var এর ব্যবহার ।
 var age = 2;
@@ -242,7 +242,7 @@ var num2 = 100;
 
 
 
-// ২ । javascript এ Array এর ব্যবহার ।
+//// ২ । javascript এ Array এর ব্যবহার ।
 
 //কোন Variable Array কিন সেটা বের করার জন্য যা কতে হবে ।
 const bd = [12, 44, 55, 43, 33];
@@ -457,7 +457,7 @@ const smallnumberresult = Math.min(smallnumber);
 
 
 
-// ৩। javascript এ condisonal যেভাবে কাজ করে ।
+//// ৩। javascript এ condisonal যেভাবে কাজ করে ।
 
 //  *১ নিয়ম 
 var iphone_price = 1000;
@@ -598,7 +598,7 @@ else {
 
 
 
-// ৪। javascript এ loop যেভাবে কাজ করে ।
+//// ৪। javascript এ loop যেভাবে কাজ করে ।
 
 /////
 
@@ -750,7 +750,7 @@ switch (color) {
 
 
 
-// ৫। javascript এ function যেভাবে কাজ করে ।
+//// ৫। javascript এ function যেভাবে কাজ করে ।
 
 // function চালু করার সাধারণ নিয়ম ।
 function starting(money) {
@@ -1045,7 +1045,7 @@ function foctorial1(i) {
 
 
 
-// ৬। javascript এ objecct যেভাবে কাজ করে ।
+//// ৬। javascript এ objecct যেভাবে কাজ করে ।
 
 // সাধারনত objecct যেভাবে লিখে ।
 var student = {
