@@ -1,4 +1,4 @@
-                                              // Normal JAVASCRIPT Toturial START //
+                                              // Normal-JAVASCRIPT-Toturial-START //
 
 
 
@@ -1154,4 +1154,4 @@ const result25 = machedProducts(products, "phones");
 
 
 
-                                              // Normal JAVASCRIPT Toturial END //
+                                              // Normal-JAVASCRIPT-Toturial-END //
