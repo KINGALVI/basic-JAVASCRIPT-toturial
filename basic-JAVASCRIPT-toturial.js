@@ -1,11 +1,11 @@
-                                              // Normal-JAVASCRIPT-Toturial-START //
+// Normal-JAVASCRIPT-Toturial-START //
 
 
 
 
 
-//// javascript এর code কাজ করছে নাকি তা পরিক্ষা করার নিযম ////
- console.log(5 , 'Hello JavaScript' , 5);
+//// How to test if JavaScript code is working ////
+console.log(5, 'Hello JavaScript', 5);
 
 
 
@@ -16,208 +16,228 @@
 
 
 
-//// ১ । javascript এ var এর ব্যবহার ।
+// 1. Using var in JavaScript
 
-// সংখ্যা ক্ষেত্রে var এর ব্যবহার ।
+// Using var for numbers
 var age = 2;
-// console.log(age);
+console.log(age);
 
-// নাম এর ক্ষেত্রে var এর ব্যবহার ।
-var information = "alvi";
-var country_information = 'BANGLADESH';
-// console.log(country_information, information);
 
-// সত্য আথবা মিত্র্যা এর ক্ষেত্রে var এর ব্যবহার |
+
+// Using var for names
+var information = "Alvi";
+var country_information = "BANGLADESH";
+console.log(country_information, information);
+
+
+
+// Using var for true or false values
 var true_false = true;
-// console.log(true_false);
+console.log(true_false);
+
+
 
 var true_false = false;
-// console.log(true_false);
+console.log(true_false);
 
-// একসাথে একাধিক var মান যোগ বা বিয়োগ এর ক্ষত্রে var এর ব্যবহার ।
+
+
+// Using var for addition and subtraction of multiple values
 var tomato_price = 20;
 var potato_price = 20;
 var total_price = tomato_price + potato_price;
-// console.log(total_price);
+console.log(total_price);
+
+
 
 var tomato_price = 20;
 var potato_price = 20;
 var total_price = tomato_price - potato_price;
-// console.log(total_price);
+console.log(total_price);
 
-// একসাথে একাধিক var মান গুন বা ভাগ এর ক্ষেত্রে var ব্যবহার ।
-var orange_prize = 50;
+
+
+// Using var for multiplication and division of multiple values
+var orange_price = 50;
 var quantity = 5;
-var total_price = orange_prize * quantity;
-// console.log(total_price);
+var total_price = orange_price * quantity;
+console.log(total_price);
 
-var orange_prize = 50;
+
+
+var orange_price = 50;
 var quantity = 5;
-var total_price = orange_prize / quantity;
-// console.log(total_price);
+var total_price = orange_price / quantity;
+console.log(total_price);
 
-// কোন var এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
+
+
+// Changing the value of a var
 var true_false = true;
 true_false = false;
-// console.log(true_false);
+console.log(true_false);
 
-var true_false = false;
-true_false = true;
-// console.log(true_false);
+
 
 var tomato_price = 20;
 tomato_price = 10;
 var potato_price = 20;
 potato_price = 15;
 var total_price = tomato_price + potato_price;
-// console.log(total_price);
+console.log(total_price);
 
-var tomato_price = 20;
-tomato_price = 10;
-var potato_price = 20;
-potato_price = 5;
-var total_price = tomato_price - potato_price;
-// console.log(total_price);
 
-var orange_prize = 50;
-orange_prize = 25;
-var quantity = 5;
-quantity = 25;
-var total_price = orange_prize * quantity;
-// console.log(total_price);
 
-var orange_prize = 50;
-orange_prize = 25;
-var quantity = 5;
-quantity = 25;
-var total_price = orange_prize / quantity;
-// console.log(total_price);
-
-// কোন var এর মান পরিবতন না করে নতুন মান যোগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
+// Adding new values without changing the original var value
 var tomato_price = 20;
 tomato_price += 10;
 var potato_price = 20;
 potato_price += 15;
 var total_price = tomato_price + potato_price;
-// console.log(total_price);
+console.log(total_price);
 
-// কোন var এর মান পরিবতন না করে নতুন মান বিয়োগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
+
+
+// Subtracting new values without changing the original var value
 var tomato_price = 20;
-tomato_price -= 10
+tomato_price -= 10;
 var potato_price = 20;
 potato_price -= 5;
 var total_price = tomato_price - potato_price;
-// console.log(total_price);
+console.log(total_price);
 
-// কোন var এর মান পরিবতন না করে নতুন মান গুন করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
-var orange_prize = 50;
-orange_prize *= 25;
+
+
+// Multiplying new values without changing the original var value
+var orange_price = 50;
+orange_price *= 25;
 var quantity = 5;
 quantity *= 25;
-var total_price = orange_prize * quantity;
-// console.log(total_price);
+var total_price = orange_price * quantity;
+console.log(total_price);
 
-// কোন var এর মান পরিবতন না করে নতুন মান ভাগ করতে চাইলে এ ক্ষেত্রে var এর ব্যবহার ।
-var orange_prize = 50;
-orange_prize /= 25;
+
+
+// Dividing new values without changing the original var value
+var orange_price = 50;
+orange_price /= 25;
 var quantity = 5;
 quantity /= 25;
-var total_price = orange_prize / quantity;
-// console.log(total_price);
+var total_price = orange_price / quantity;
+console.log(total_price);
 
-// কোন ভাগের ভাগশেষ নিণয় করতে হলে var এর নিয়ম ।
+
+
+// Finding the remainder of a division
 var mangoes = 17;
 var person = 5;
-// console.log(mangoes % person);
+console.log(mangoes % person);
 
-// দুইটী String টাইপ Variable মান এর মধ্যে space দিতে চাইলে এ ক্ষত্রে  এর ব্যবহার ।
-var information = "alvi";
-var country_information = 'BANGLADESH';
-var total_information = information + ' ' + country_information;
-// console.log(total_information);
 
-// কোন string এর ভিতরে যদি সংখ্যা থাকে তাহলে সেটা যদি string থেকে যদি আসল সংখ্যয় পরিবতন এ ক্ষত্রে var এর ব্যাবহার
-var orange_prize = '50';
-var orange_prizes = parseInt(orange_prize);
-// console.log(orange_prizes);
 
-// কোন string এর ভিতরে যদি  দংশমিক সংখ্যা থাকে তাহলে সেটা সেটা কে আসল দশমিক আকেরে দেখাতে হলে এ ক্ষত্রে var এর ব্যাবহার
-var gpa = '3.55';
-var gap_number = parseFloat(gpa);
-// console.log(gap_number);
+// Adding a space between two string variables
+var information = "Alvi";
+var country_information = "BANGLADESH";
+var total_information = information + " " + country_information;
+console.log(total_information);
 
-//কোন Variable মান এর ফলাফল যদি দশমিক আকারে আসে এবং দশমিক ডিজিট যদি ৫ বা ৬ এর বেশি হয় , তাহলে toFixed() ব্যবহার করে দশমিক ডিজিট নিয়ত্রণ করা সম্ভব । 
+
+
+// Converting a string number to an actual number
+var orange_price = "50";
+var orange_prizes = parseInt(orange_price);
+console.log(orange_prizes);
+
+
+
+// Converting a string decimal to an actual decimal number
+var gpa = "3.55";
+var gpa_number = parseFloat(gpa);
+console.log(gpa_number);
+
+
+
+// Controlling decimal places using toFixed()
 var num1 = 0.1;
 var num2 = 0.2;
 var math = num1 + num2;
-math = math.toFixed(2)
+math = math.toFixed(2);
 
-// যদি দুইটি Variable এর মান আদল বদল করতে হয় , তাহলে সে ক্ষেত্রে var এর ব্যবহার ।
-//
-var firstinput = 10;
-var secoendinput = 5;
 
-var swap = secoendinput;
-secoendinput = firstinput;
-firstinput = swap;
-// console.log(firstinput, secoendinput)
 
-// useing Destructurcing for swap Variable input
-var firstinput = 10;
-var secoendinput = 5;
-[firstinput, secoendinput] = [secoendinput, firstinput]
-// console.log(firstinput, secoendinput)
+// Swapping values between two variables
+var first_input = 10;
+var second_input = 5;
 
-// var এর কোন মানটি সংখ্যা , কোন মানটি string এবং কোন মানটি boolean ক্ষেত্রে var এর ব্যবহার;
+var swap = second_input;
+second_input = first_input;
+first_input = swap;
+console.log(first_input, second_input);
+
+
+
+// Using destructuring to swap values
+[first_input, second_input] = [second_input, first_input];
+console.log(first_input, second_input);
+
+
+
+// Checking the data type of a variable
 var price = 100;
-// console.log(typeof price);
+console.log(typeof price);
 
-var price = '100';
-// console.log(typeof price);
+var price = "100";
+console.log(typeof price);
 
 var true_false = true;
-// console.log(typeof true_false);
+console.log(typeof true_false);
 
-// let constant এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি সব আক্ষর কে যদি ছোট হাতের বা বড় হাতের করতে হয় তাহলে সে ক্ষত্রে let constant ব্যবহার এর নিয়ম।
-const paragraphone = 'my information is alvi i want to de a good fullstack wed devoloper';
-const ifexgiestone = paragraphone.toLowerCase('my');
-// console.log(ifexgiestone);
 
-const paragraphtwo = 'my information is alvi i want to de a good fullstack wed devoloper';
-const ifexgiesttwo = paragraphtwo.toUpperCase('my');
 
-// let constant এর ভিতরে যদি এক গুচ্ছো string থাকে এবং সেই string এর মধ্যে যদি কোন নিদিষ্ট string  আছে নাকি সেটা আমরা বের করতে চাই সে ক্ষেত্র let constant ব্যবহার এর নিয়ম ।
-const paragraph1 = 'my information is alvi i want to de a good fullstack wed devoloper';
-const ifexgiest1 = paragraph1.includes("fullstack")
-// console.log(ifexgiest1);
+// Converting a full string to lowercase
+const paragraph_one = "My information is Alvi. I want to be a good full-stack web developer.";
+const lower_case_text = paragraph_one.toLowerCase();
+console.log(lower_case_text);
 
-// কোন String এর প্রথম মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
-const paragraph2 = 'my information is alvi i want to de a good fullstack wed devoloper';
-const ifexgiest2 = paragraph2.startsWith("fullstack");
-// console.log(ifexgiest2);
 
-// কোন String এর শেষ মান যদি আমরা বের করতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
-const paragraph3 = 'my information is alvi i want to de a good fullstack wed devoloper';
-const ifexgiest3 = paragraph3.endsWith("devoloper");
-// console.log(ifexgiest3);
 
-// var এর ক্ষেত্রে কোন মান এর মধ্যে পাথক্য বা comparision বের করার নিয়ম ।
+// Converting a full string to uppercase
+const paragraph_two = "My information is Alvi. I want to be a good full-stack web developer.";
+const upper_case_text = paragraph_two.toUpperCase();
+console.log(upper_case_text);
+
+
+
+// Checking if a specific word exists in a string using includes()
+const paragraph1 = "My information is Alvi. I want to be a good full-stack web developer.";
+const word_exists1 = paragraph1.includes("fullstack");
+console.log(word_exists1);
+
+
+
+// Checking if a string starts with a specific word
+const paragraph2 = "My information is Alvi. I want to be a good full-stack web developer.";
+const starts_with_check = paragraph2.startsWith("fullstack");
+console.log(starts_with_check);
+
+
+
+// Checking if a string ends with a specific word
+const paragraph3 = "My information is Alvi. I want to be a good full-stack web developer.";
+const ends_with_check = paragraph3.endsWith("developer");
+console.log(ends_with_check);
+
+
+
+// Comparing values using different operators
 var num1 = 50;
 var num2 = 100;
-// console.log(num1 < num2);
-// console.log(num1 < num2);
-// console.log(num1 > num2);
-// console.log(num1 > num2);
-// console.log(num1 <= num2);
-// console.log(num1 <= num2);
-// console.log(num1 <= num2);
-// console.log(num1 >= num2);
-// console.log(num1 >= num2);
-// console.log(num1 >= num2);
-// console.log(num1 == num2);
-// console.log(num1 == num2);
-// console.log(num1 !== num2);
-// console.log(num1 !== num2);
+console.log(num1 < num2);
+console.log(num1 > num2);
+console.log(num1 <= num2);
+console.log(num1 >= num2);
+console.log(num1 == num2);
+console.log(num1 !== num2);
 
 
 
@@ -228,211 +248,206 @@ var num2 = 100;
 
 
 
+// 2. Using Arrays in JavaScript
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//// ২ । javascript এ Array এর ব্যবহার ।
-
-//কোন Variable Array কিন সেটা বের করার জন্য যা কতে হবে ।
+// Checking if a variable is an array
 const bd = [12, 44, 55, 43, 33];
-// console.log(Array.isArray(bd));
+console.log(Array.isArray(bd));
 
-//কোন দুইটি Array কে একসাথে জোড়া লাগাতে হলে , সে ক্ষেত্রে যা করতে হবে ।
-const conected1 = [12, 44, 55, 43, 33];
-const conected2 = [12, 44, 55, 43, 33];
-const connection = conected1.concat(conected2);
-// console.log(connection);
 
-// সংখ্যা ক্ষেত্রে Array এর ব্যবহার ।
+
+// Merging two arrays using concat()
+const connected1 = [12, 44, 55, 43, 33];
+const connected2 = [12, 44, 55, 43, 33];
+const connection = connected1.concat(connected2);
+console.log(connection);
+
+
+
+// Using arrays for numbers
 var age = [11, 12, 13, 14, 15];
-// console.log(age);
+console.log(age);
 
-// Array কোন মান কোন জায়গায় আছে সেটা বের করার নিয়ম ।
+
+
+// Finding the index of an element in an array
 var number = [11, 12, 13, 14, 15];
-// console.log(number.indexOf(13));
+console.log(number.indexOf(13));
 
-var information = ['alvi', "abusle", "ahsan", "arghya", 'apu'];
-// console.log(information.indexOf('apu'));
+var information = ["Alvi", "Abusle", "Ahsan", "Arghya", "Apu"];
+console.log(information.indexOf("Apu"));
 
-// কোন Array ভিতরে মান পরিবতন করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
-var alvi = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-alvi[3] = 'clash of clan'
-// console.log(alvi);
+
+
+// Modifying array elements
+var alvi = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
+alvi[3] = "Clash of Clans";
+console.log(alvi);
 
 var number = [11, 12, 13, 14, 15];
 number[2] = 100;
-// console.log(number);
+console.log(number);
 
-// Array এর ভিতরে কত গুলো সংখ্যা আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
+
+
+// Checking the length of an array
 var age = [11, 12, 13, 14, 15];
-// console.log(age.lenght);
+console.log(age.length);
 
-// নাম এর ক্ষেত্রে Array এর ব্যবহার ।
-var information = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
-// console.log(information);
 
-// Array এর ভিতরে কত গুলো শব্দ আছে সেটা বের করার ক্ষেত্রে Array এর ব্যবহার ।
-var information = ['alvi', "abusle", "ahosan", "arghya", 'apu'];
-// console.log(information.length);
 
-// Array এর ভিতরে কোন নিদিষ্ট আক্ষর বা সংখ্যা বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
+// Using arrays for names
+var information = ["Alvi", "Abusle", "Ahosan", "Arghya", "Apu"];
+console.log(information);
+
+
+
+// Finding a specific element in an array
 var number = [50, 51, 52, 53, 54, 55];
-// console.log(number[3]);
+console.log(number[3]);
 
-var information = ['alvi', "shale", "apu", "arghya",
-  "rakib", 'ahsoan'];
-// console.log(information[1]);
+var information = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
+console.log(information[1]);
 
-// কোন Array এর মান পরিবতন করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
+
+
+// Changing a specific value in an array
 var number = [50, 51, 52, 53, 54, 55];
 number[2] = 100;
-// console.log(number);
+console.log(number);
 
-var information = ['alvi', "shale", "apu", "arghya",
-  "rakib", 'ahsoan'];
-information[3] = 'clash of clan'
-// console.log(information);
+var information = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
+information[3] = "Clash of Clans";
+console.log(information);
 
-// কোন Array এর মান কত নম্বরে আবস্থান করছে তা খুজে বের করতে চাইলে এ ক্ষেত্রে Array এর ব্যবহার ।
+
+
+// Finding the index of an element
 var number = [50, 51, 52, 53, 54, 55];
-var position_index = number.indexOf(55);
-// console.log(position_index);
+var positionIndex = number.indexOf(55);
+console.log(positionIndex);
 
-var information = ['alvi', "shale", "apu", "arghya",
-  "rakib", 'ahsoan'];
-var position_index = information.indexOf('alvi')
-// console.log(position_index)
+var information = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
+var positionIndex = information.indexOf("Alvi");
+console.log(positionIndex);
 
-// কোন Array এর ভিতর শেষে নুতুন কোন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
+
+
+// Adding new elements to the end of an array using push()
 var number = [50, 51, 52, 53, 54, 55];
 number.push(500);
-// console.log(number);
+console.log(number);
 
-var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-informations.push('clash of clan');
-// console.log(informations);
+var informations = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
+informations.push("Clash of Clans");
+console.log(informations);
 
-// কোন Array এর ভিতরে শেষ মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+
+
+// Removing the last element of an array using pop()
 var number = [50, 51, 52, 53, 54, 55];
 number.pop();
-// console.log(number);
+console.log(number);
 
-var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+var informations = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
 informations.pop();
-// console.log(informations);
+console.log(informations);
 
-// কোন Array এর ভিতরে যে শেষ মানটা কে সরিয়ে ফেলা হয়েছে এবং সেটা দেখতে  চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+
+
+// Viewing the removed last element
 var number = [50, 51, 52, 53, 54, 55];
 element = number.pop();
-// console.log(element);
+console.log(element);
 
-var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+var informations = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
 element = informations.pop();
-// console.log(element);
+console.log(element);
 
-//// কোন Array এর ভিতর প্রথমে নুতুন কোন মান যোগ করতে চাইলে সে ক্ষেত্রে Array এর ব্যবহার ।
+
+
+// Adding new elements to the beginning of an array using unshift()
 var number = [50, 51, 52, 53, 54, 55];
 number.unshift(500);
-// console.log(number);
+console.log(number);
 
-var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-informations.unshift('clash of clan');
-// console.log(informations)
+var informations = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
+informations.unshift("Clash of Clans");
+console.log(informations);
 
-// কোন Array এর ভিতরে প্রথম মান কে সরিয়ে ফেলতে চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+
+
+// Removing the first element of an array using shift()
 var number = [50, 51, 52, 53, 54, 55];
 number.shift();
-// console.log(number);
+console.log(number);
 
-var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+var informations = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
 informations.shift();
-// console.log(informations);
+console.log(informations);
 
-// কোন Array এর ভিতরে প্রথম মানটা কে সরিয়ে ফেলা হয়েছে এবং সেটা দেখতে  চাইলে সে ক্ষেত্রে Array এর ব্যবাহার ।
+
+
+// Viewing the removed first element
 var number = [50, 51, 52, 53, 54, 55];
 element = number.shift();
-// console.log(element);
+console.log(element);
 
-var informations = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
+var informations = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
 element = informations.shift();
-// console.log(element);
+console.log(element);
 
-// কোন string ভিতরে sentence এর word কে যদি আমারা array মত ভাগ করে দেখেতে চাই সে ক্ষেত্রে var এর ব্যবহার ।
-const paragraph4 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
-const ifexgiest4 = paragraph4.split(' ');
-// console.log(ifexgiest4);
 
-const paragraph5 = 'my information is  alvi . i want to de a good fullstack wed devoloper';
-const ifexgiest5 = paragraph5.split('.');
-// console.log(ifexgiest5);
 
-const paragraph6 = ['my information is  alvi  i want to de a good fullstack wed devoloper'];
-const ifexgiest6 = paragraph6.join(',');
-// console.log(ifexgiest6);
+// Splitting a sentence into an array of words using split()
+const paragraph4 = "My information is Alvi. I want to be a good full-stack web developer.";
+const wordsArray = paragraph4.split(" ");
+console.log(wordsArray);
 
-const paragraph7 = ['my information is  alvi .', 'i want to de a good fu', 'llstack wed devoloper'];
-const ifexgiest7 = paragraph7.slice('');
-// console.log(ifexgiest7);
 
-const paragraph8 = ['my information is  alvi .', 'i want to de a good fu', 'llstack wed devoloper'];
-const ifexgiest8 = paragraph8.splice(5, 7, 'after revomeing if we want to add some number or string , we can add here');
-// console.log(ifexgiest8);
 
-// আলাদা আলাদা থাকা String কে যদি জোড়া লাগেতে হয় , তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
-const nameinformation = ['alvi', "shale", "apu", "arghya", "rakib", 'ahsoan'];
-const join = nameinformation.join('=')
-// console.log(join);
+// Combining an array into a string using join()
+const nameInformation = ["Alvi", "Shale", "Apu", "Arghya", "Rakib", "Ahsoan"];
+const joinedString = nameInformation.join(" = ");
+console.log(joinedString);
 
-// the use of power math in  in javscript
+
+
+// Using Math.pow() to find the power of a number
 const math1 = Math.pow(3, 8);
-// console.log(math1);
+console.log(math1);
 
-// কোন let const এর মান positive বা negitive এ আছে নাকি সেটা না দেখে যদি প্রকৃত ফলাফল পেতে চাই তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
+
+
+// Using Math.abs() to find absolute differences
 const mark1 = 50;
 const mark2 = 100;
-const allmark = Math.abs(mark1 - mark2);
-// console.log(allmark);
+const absoluteDifference = Math.abs(mark1 - mark2);
+console.log(absoluteDifference);
 
-// কোন let const এর দশমিক সংখ্যাওযলা মান কে যদি আমরা পূন সংখ্যা আকারে পেতে চাই , তাহলে সে ক্ষত্রে let const এর ব্যবহার ।
-const nonumber = 2.43434;
-const nonumberresult1 = Math.round(nonumber);
-//
-const nonumberresult2 = Math.ceil(nonumber);
-//
-const nonumberresult3 = Math.floor(nonumber);
-// console.log(nonumberresult);
 
-// JavaScript এ আমরা যেকোন Random সংখ্যা পেতে চাই , তাহলে সে যে Code টা ব্যবহার করতে হবে । 
-const anynumber = Math.random();
-// console.log(anynumber);
 
-const wishnumber = Math.random() * 100;
-// console.log(wishnumber);
+// Using Math.round(), Math.ceil(), and Math.floor()
+const numberVal = 2.43434;
+console.log(Math.round(numberVal)); // Rounded to nearest integer
+console.log(Math.ceil(numberVal));  // Rounded up
+console.log(Math.floor(numberVal)); // Rounded down
 
-const goodnumber = Math.round(Math.random() * 100);
-// console.log(goodnumber);
 
-// এক গুচ্ছো সংখ্যা এর মধ্যে কোনটা ছোট বড় সেটা বের করতে চাইলে সে ক্ষত্রে var const এর ব্যবহার ।
-//
-const bignumber = [25, 50, 100];
-const bignumberresult = Math.max(bignumber);
-// console.log(bignumberresult);
 
-//
-const smallnumber = [25, 50, 100];
-const smallnumberresult = Math.min(smallnumber);
-// console.log(smallnumberresult);
+// Generating random numbers
+console.log(Math.random()); // Any random number
+console.log(Math.random() * 100); // Random number up to 100
+console.log(Math.round(Math.random() * 100)); // Rounded random number up to 100
+
+
+
+// Finding the maximum and minimum value in an array
+const bigNumbers = [25, 50, 100];
+console.log(Math.max(...bigNumbers)); // Maximum value
+
+const smallNumbers = [25, 50, 100];
+console.log(Math.min(...smallNumbers)); // Minimum value
 
 
 
@@ -443,136 +458,143 @@ const smallnumberresult = Math.min(smallnumber);
 
 
 
+// 3. How Conditionals Work in JavaScript
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//// ৩। javascript এ condisonal যেভাবে কাজ করে ।
-
-//  *১ নিয়ম 
+// *1st Rule
 var iphone_price = 1000;
 var my_budget = 500;
-// যদি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
+
+// If the condition is true, this message will appear.
 if (iphone_price > my_budget) {
-  // console.log("you can not buy iphone");
+  console.log("You cannot buy an iPhone");
 }
-// যদি কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
+// If the condition is false, this message will appear.
 else {
-  // console.log("you can buy iphone");
+  console.log("You can buy an iPhone");
 }
 
-// *২য় নিয়ম 
+
+
+// *2nd Rule
 var isGraduated = true;
 var salary = 5000;
-// যদি এই দুইটি  কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
+
+// If both conditions are true, this message will appear.
 if (isGraduated == true && salary > 4000) {
-  // console.log("i will succsess");
+  console.log("I will succeed");
 }
-// যদি এই দুইটি  কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
+// If both conditions are false, this message will appear.
 else {
-  // console.log("i will not success");
+  console.log("I will not succeed");
 }
 
 var isGraduated = true;
 var salary = 5000;
-// যদি এই দুইটি  কথার মধ্যে একটি কথা সত্যি হয় তাহলে এই উত্তর আসবে ।
+
+// If at least one condition is true, this message will appear.
 if (isGraduated == true || salary < 9000) {
-  // console.log("you can win");
+  console.log("You can win");
 }
-// যদি এই দুইটি  কথার মধ্যে কোন কথা সত্যি না হয় তাহলে এই উত্তর আসবে ।
+// If neither condition is true, this message will appear.
 else {
-  // console.log("you cannot win");
+  console.log("You cannot win");
 }
 
-// *৩য় নিয়ম 
+
+
+// *3rd Rule
 var isGraduated = true;
 var salary = 5000;
 var car = 1;
-// যদি একসাথে তিনটি বিষয় সত্যি তাহলে এই লেখা আসবে ।
+
+// If all three conditions are true, this message will appear.
 if ((isGraduated == false && salary > 5000) || car <= 0) {
-  // console.log("you can sine");
+  console.log("You can shine");
 }
-// যদি একসাথে তিনটি বিষয় সত্যি না হয় তাহলে এই লেখা আসবে ।
+// If all three conditions are false, this message will appear.
 else {
-  // console.log("you cannot sine");
+  console.log("You cannot shine");
 }
 
-// *৪র্থ নিয়ম 
+
+
+// *4th Rule
 var money = 50;
 var chicken = 35;
-var tost = 45;
-var cock = 40;
-// এই নিয়মে যেকোন একটা শত ঠিক হলে বাকি শত গুলো আপ্লয় হয় না ।
+var toast = 45;
+var coke = 40;
+
+// In this rule, if one condition is met, the others won't be checked.
 if (chicken > money) {
-  // console.log("ami cicken khabo");
+  console.log("I will eat chicken");
 }
-else if (tost < money) {
-  // console.log("ami tost khabo");
+else if (toast < money) {
+  console.log("I will eat toast");
 }
-else if (cock > money) {
-  // console.log("ami cock khabo");
+else if (coke > money) {
+  console.log("I will drink coke");
 }
 
-// *৫ম নিয়ম 
+
+
+// *5th Rule
 var math = true;
 var geometry = true;
-// এই নিয়মে আমরা চাইলে একটি if else এর ভিতরে আরেকটি if else বসাতে পারি ।
+
+// In this rule, an if-else statement is nested inside another if-else statement.
 if (math == true) {
   if (math == true && geometry == true) {
-    // console.log("i will gainner")
+    console.log("I will be a winner");
   }
   else {
-    //  আমরা এখানে চাইলে কিছু লিখতে পারি ।
+    // Additional conditions can be added here.
   }
 }
 else {
   if (math == false && geometry == false) {
-    // console.log("i will not gainner")
+    console.log("I will not be a winner");
   }
   else {
-    //  আমরা এখানে চাইলে কিছু লিখতে পারি ।
+    // Additional conditions can be added here.
   }
 }
 
-// speshal example of if else
+
+
+// Special Example of If-Else
 var my_score = 85;
 var tom_score = 66;
 var jane_score = 95;
-var peater_score = 56;
-var jhone_score = 40;
-if (80 <= []) {
-  // console.log("a grade")
-}
-else if (60 <= []) {
-  // console.log("b grde")
-}
-else if (50 <= []) {
-  // console.log("c grade")
-}
-else if (40 <= []) {
-  // console.log("d grade")
-}
-else if (39 <= []) {
-  // console.log("f grade")
-}
+var peter_score = 56;
+var john_score = 40;
 
-const userinformation = "alvi";
-const userinput = "alvo";
-if (userinformation.toLocaleUpperCase == userinput.toLocaleUpperCase) {
-  // console.log(true);
+if (my_score >= 80) {
+  console.log("A Grade");
+}
+else if (my_score >= 60) {
+  console.log("B Grade");
+}
+else if (my_score >= 50) {
+  console.log("C Grade");
+}
+else if (my_score >= 40) {
+  console.log("D Grade");
 }
 else {
-  // console.log(false);
+  console.log("F Grade");
+}
+
+
+
+// Comparing user input with stored information using case-insensitive matching
+const userInformation = "alvi";
+const userInput = "alvo";
+
+if (userInformation.toUpperCase() === userInput.toUpperCase()) {
+  console.log(true);
+}
+else {
+  console.log(false);
 }
 
 
@@ -584,147 +606,145 @@ else {
 
 
 
+// 4. How Loops Work in JavaScript
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//// ৪। javascript এ loop যেভাবে কাজ করে ।
-
-/////
-
-// while loop বের করার একটা সাধারণ নিয়ম ।
+// Basic use of a while loop
 var roastGiven = 0;
 while (roastGiven < 7) {
-  // console.log('rost den , please !!');
-  // console.log(roastGiven);
+  console.log("Roast given, please!!");
+  console.log(roastGiven);
   roastGiven++;
   // roastGiven = roastGiven + 1;
   // roastGiven += 1;
 }
 
-// for loop কে সংক্ষেপে লেখার নিয়ম ।
+
+
+// Short version of a for loop
 for (var roastGiven = 1; roastGiven <= 10; roastGiven++) {
-  // console.log(roastGiven);
+  console.log(roastGiven);
 }
 
-// for of loop লেখার নিয়ম ।
-const ofLoopNumber = [12, 34, 56, 78, 90]
-for (const indexOfLoopNumber of ofLoopNumber){
+
+
+// Using a for-of loop
+const ofLoopNumber = [12, 34, 56, 78, 90];
+for (const indexOfLoopNumber of ofLoopNumber) {
   console.log(indexOfLoopNumber);
 }
 
-/////
 
-// for loop কে আরোও সংক্ষেপে লেখার নিয়ম ।
+
+// Shorter for loop examples
 for (var r = 5; r <= 15; r++) {
-    // console.log(r);
-  }
+  console.log(r);
+}
 
 for (var r = 5; r <= 15; r = r + 2) {
-  // console.log(r);
+  console.log(r);
 }
 
 for (var r = 5; r <= 15; r += 2) {
-  // console.log(r);
+  console.log(r);
 }
 
+
+
+// Iterating through an array using a for loop
 const number50 = [2, 56, 445, 645, 353, 2424, 5636, 2355];
-
 for (let i = 0; i < number50.length; i++) {
-  number50[i];
-  // console.log(number50);
+  console.log(number50[i]);
 }
 
-// while loop বিজোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
+
+
+// Using a while loop to print odd numbers
 var roastGiven = 1;
 while (roastGiven <= 10) {
-  // console.log(roastGiven);
-  roastGiven = roastGiven + 2;
+  console.log(roastGiven);
+  roastGiven += 2;
 }
 
-// while loop জোড় সংখ্যা  বের করার একটা সাধারণ নিয়ম ।
+
+
+// Using a while loop to print even numbers
 var roastGiven = 0;
 while (roastGiven <= 10) {
-  // console.log(roastGiven);
-  roastGiven = roastGiven + 2;
+  console.log(roastGiven);
+  roastGiven += 2;
 }
 
-// for loop এর দেওয়া condition পুরন না করে যদি আমরা আমাদের for loop শেষ করততে চাই তাহলে এ ক্ষেত্রে for loop এর ব্যবহার ।
+
+
+// Using a break in a for loop to stop execution early
 for (var i = 1; i <= 25; i++) {
-  // console.log(i);
+  console.log(i);
   if (i >= 20) {
     break;
   }
 }
 
-// continue loop example
+
+
+// Using continue in a loop example
 var numbers = [45, 34, 55, 67, 54, 34, 52, 50];
 for (var i = 0; i < numbers.length; i++) {
-  var numbers = numbers[i];
-  if (numbers > 50) {
+  var number = numbers[i];
+  if (number > 50) {
     continue;
   }
-  // console.log(numbers)
+  console.log(number);
 }
 
-// break loop example
+
+
+// Using break in a loop example
 var numbers = [45, 34, 55, 67, 54, 34, 52, 50];
 for (var i = 0; i < numbers.length; i++) {
-  var numbers = numbers[i];
-  if (numbers > 50) {
+  var number = numbers[i];
+  if (number > 50) {
     break;
   }
-  // console.log(numbers)
+  console.log(number);
 }
 
 
-// while loop reverce way তে পরিচালনা করার ক্ষেত্রে while loop এর ব্যবহার ।
+
+// Using a reverse while loop
 for (var num = 10; num >= 1; num--) {
-  // console.log(num);
-
+  console.log(num);
 }
 
-// while loof কে আরোও সক্ষেপে লেখার নিয়ম ।
+
+
+// Shorter syntax for iterating an array using for-of loop
 const al = [24, 56, 78, 45, 73, 39];
-for (const mahamud of al) {
-  // console.log(al);
+for (const value of al) {
+  console.log(value);
 }
 
-const ali = [24, 56, 78, 45, 73, 39];
-for (const { } of al) {
-  // console.log(al);
-}
 
-// loop কে সংক্ষেপে লিখেতে গেলে সে ক্ষেত্রে নিচের নিয়ম লিখেতে হবে ।
-const color = ' ';
+
+// Using a switch statement instead of multiple if-else conditions
+const color = "";
 switch (color) {
-  case 'green':
-    // console.log('you are green my friend');
-    break
-  case 'blue':
-    // console.log('you are blue my friend');
-    break
-  case 'white':
-    // console.log('you are white my friend');
-    break
-  case 'red':
-    // console.log('you are red my friend');
-    break
-  case 'yellow':
-    // console.log('you are yellow my friend');
-    break
+  case "green":
+    console.log("You are green, my friend.");
+    break;
+  case "blue":
+    console.log("You are blue, my friend.");
+    break;
+  case "white":
+    console.log("You are white, my friend.");
+    break;
+  case "red":
+    console.log("You are red, my friend.");
+    break;
+  case "yellow":
+    console.log("You are yellow, my friend.");
+    break;
   default:
-  // console.log('you are my black black friend');
+    console.log("You are my black, black friend.");
 }
 
 
@@ -736,291 +756,312 @@ switch (color) {
 
 
 
+// 5. How Functions Work in JavaScript
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//// ৫। javascript এ function যেভাবে কাজ করে ।
-
-// function চালু করার সাধারণ নিয়ম ।
+// Basic function declaration and execution
 function starting(money) {
-  // console.log('alvi al mahmud');
-  // console.log(money);
+  console.log("Alvi Al Mahmud");
+  console.log(money);
 }
-starting(100)
+starting(100);
 
-// function add করতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
+
+
+// Using a function to add two numbers
 function starting(num1, num2) {
-  // console.log('going to add :', num1, num2);
+  console.log("Going to add:", num1, num2);
 }
 starting(100, 200);
 
 
-function nameinfo(name1, name2) {
-  // console.log('our both name is ', name1, name2)
+
+// Function to display names
+function nameInfo(name1, name2) {
+  console.log("Our names are:", name1, name2);
 }
-nameinfo("alvi", "khan")
+nameInfo("Alvi", "Khan");
 
-// বাইরের কোন Variable কে function Paramiter এর মান হিসেবে দেখাতে চাইলে সে ক্ষেত্রে function এর ব্যবহার ।
-function namedata(info) {
-  // console.log('my name is', info)
+
+
+// Passing an external variable as a function parameter
+function nameData(info) {
+  console.log("My name is", info);
 }
 
-var peopleName = 'alvi';
-namedata(peopleName);
+var peopleName = "Alvi";
+nameData(peopleName);
 
-
-function numberdata(info) {
-  // console.log('my number is', info)
+function numberData(info) {
+  console.log("My number is", info);
 }
 var peopleNumber = 100;
-numberdata(peopleNumber);
+numberData(peopleNumber);
 
-// function একধিক মান সেট করার নিয়ম ।
+
+
+// Function with multiple parameters
 function sum(a, b, c, d, e) {
-  // console.log(a, b, c, d, e);
+  console.log(a, b, c, d, e);
   var sum = a + b + c + d + e;
-  // console.log(sum);
+  console.log(sum);
 }
 sum(23, 34, 54, 35, 64);
 
-// function এ কোন কিছু ফেরত পেতে গেলে সে ক্ষেত্রে return এর ব্যবহার ।
+
+
+// Using return in a function
 function add(alvi1, alvi2) {
-  // console.log(alvi1, alvi2);
+  console.log(alvi1, alvi2);
   var sum = alvi1 + alvi2;
   return sum;
 }
 var total = add(10, 15);
-// console.log('total', total)
+console.log("Total:", total);
 
-// good externalpe of return function
+
+
+// Example of a function returning a calculated value
 function egg(money) {
   var eggPrice = 10;
   var quantity = money / eggPrice;
   return quantity;
 }
 var totalEgg = egg(300);
-// console.log('totalEgg :', totalEgg);
+console.log("Total eggs:", totalEgg);
 
-// const এর ভিতরে একাধিক মান বের করার নিয়ম ।
 
-const assigment1 = 55;
-const assigment2 = 42;
-const assigment3 = 56;
-function getAvarage
-  (assigment1, assigment2, assigment3) {
-  const total = assigment1 + assigment2 + assigment3;
-  const getAvarage = total / 3;
-  return getAvarage;
+
+// Using constants in functions
+const assignment1 = 55;
+const assignment2 = 42;
+const assignment3 = 56;
+
+function getAverage(assignment1, assignment2, assignment3) {
+  const total = assignment1 + assignment2 + assignment3;
+  const average = total / 3;
+  return average;
 }
-const totalAvarage = getAvarage(assigment1, assigment2, assigment3);
-// console.log(totalAvarage);
+const totalAverage = getAverage(assignment1, assignment2, assignment3);
+console.log("Total average:", totalAverage);
 
-// এই arguments logic টি শধু function এর ক্ষেত্রে ব্যবহার করা যায ।
-function arguments(num1, num2) {
-  // console.log(num1, num2, arguments)
+
+
+// Using arguments inside a function (only available in function scopes)
+function argumentsExample(num1, num2) {
+  console.log(num1, num2, arguments);
 }
-arguments(3, 4, 3, 4, 5, 56, 43, 345, 566, 3455,)
+argumentsExample(3, 4, 3, 4, 5, 56, 43, 345, 566, 3455);
 
-function add(num1, num2) {
+
+
+// Combining multiple function results
+function addNumbers(num1, num2) {
   var sum = num1 + num2;
   return sum;
 }
-var result1 = add(12, 14);
-var result1 = add(34, 43);
-const finalresult = add(result1, result1);
-// console.log(finalresult);
+
+var result1 = addNumbers(12, 14);
+var result2 = addNumbers(34, 43);
+const finalResult = addNumbers(result1, result2);
+console.log("Final result:", finalResult);
 
 
-// importent function example.
-function inchTofeet(inches) {
+
+// Important function example: Converting inches to feet
+function inchToFeet(inches) {
   const feet = inches / 12;
   return feet;
 }
+
 var dadaInches = 144;
-var dadafeet = inchTofeet(dadaInches);
-// console.log(dadafeet);
+var dadaFeet = inchToFeet(dadaInches);
+console.log("Feet:", dadaFeet);
 
 var dadiInches = 144;
-var dadifeet = inchTofeet(dadiInches);
-// console.log(dadifeet);
+var dadiFeet = inchToFeet(dadiInches);
+console.log("Feet:", dadiFeet);
 
+
+
+// Convert kilometers to miles
 function milestone(kilometer) {
-  var lenght = kilometer * 1.60934;
-  return lenght;
+  var length = kilometer * 1.60934;
+  return length;
 }
-const mykilometer = 5;
-const mymilestone = milestone(mykilometer);
-// console.log(mymilestone);
 
-const herkilometer = 5;
-const hermilestone = milestone(herkilometer);
-// console.log(hermilestone);
+const myKilometer = 5;
+const myMilestone = milestone(myKilometer);
+console.log("Miles:", myMilestone);
 
-function isEvnt(number) {
-  const eventodd = number % 2;
-  // // console.log(eventodd);
-  if (eventodd == 0) {
-    // console.log('this is a event nunber =', number);
-  }
-  else {
-    // console.log('this is a odd numberc =', number);
-  }
-}
-isEvnt(44);
+const herKilometer = 5;
+const herMilestone = milestone(herKilometer);
+console.log("Miles:", herMilestone);
 
-function lepyear(year) {
-  const YearCount = year % 4;
-  if (YearCount == 0) {
-    // console.log("this is a leap year =", year);
-  }
-  else {
-    // console.log("this is just a normal year =", year)
+
+
+// Checking even or odd numbers
+function isEven(number) {
+  const result = number % 2;
+  if (result === 0) {
+    console.log("This is an even number:", number);
+  } else {
+    console.log("This is an odd number:", number);
   }
 }
-lepyear(2022);
+isEven(44);
 
-const mynumbers = [5, 65, 45, 78, 32, 45, 91];
-function getsumofanarray(numbers) {
+
+
+// Checking for leap years
+function leapYear(year) {
+  const yearCount = year % 4;
+  if (yearCount === 0) {
+    console.log("This is a leap year:", year);
+  } else {
+    console.log("This is a normal year:", year);
+  }
+}
+leapYear(2022);
+
+
+
+// Sum of all numbers in an array
+const myNumbers = [5, 65, 45, 78, 32, 45, 91];
+
+function getSumOfArray(numbers) {
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     const index = i;
     const element = numbers[i];
-    sum = sum + element;
-    // console.log(index, element, sum);
+    sum += element;
+    console.log(index, element, sum);
   }
   return sum;
 }
-getsumofanarray(mynumbers);
+getSumOfArray(myNumbers);
 
-// find eventodd :even
-const MyNumbers = [24, 56, 78, 45, 73, 39];
-function getevenNumbersofAnArray(numbers) {
-  const evennumder = [];
+
+
+// Finding even numbers in an array
+const myNumbersList = [24, 56, 78, 45, 73, 39];
+
+function getEvenNumbersOfArray(numbers) {
+  const evenNumbers = [];
   for (let i = 0; i < numbers.length; i++) {
     const index = i;
     const element = numbers[i];
     if (element % 2 === 0) {
-      // console.log(index, element);
-      evennumder.push(element);
+      console.log(index, element);
+      evenNumbers.push(element);
     }
   }
-  return evennumder;
+  return evenNumbers;
 }
-// let evenumber = getevenofanarray(evenumber);
-getevenNumbersofAnArray(MyNumbers);
+getEvenNumbersOfArray(myNumbersList);
 
-// normal fuction 
-function normalfactorial(number) {
+
+
+// Normal factorial function using a loop
+function normalFactorial(number) {
   for (let i = 0; i <= number; i++) {
-    // console.log(i)
+    console.log(i);
   }
 }
 
-//reverce fuction
-function revrcefactiorial(number) {
+
+
+// Reverse factorial function using a loop
+function reverseFactorial(number) {
   for (let i = number; i >= 1; i--) {
-    // console.log(i);
+    console.log(i);
   }
 }
 
-// factorial for loop function
-function fatorial1(number) {
+
+
+// Factorial using a for loop
+function factorial1(number) {
   let result = 1;
   for (let i = number; i >= 1; i--) {
-    result = result * i;
-    // console.log(i)
+    result *= i;
+    console.log(i);
   }
   return result;
 }
 const number1 = 5;
-const fact1 = fatorial1(number1);
-// console.log('factorial of', number1, fact1);
+const fact1 = factorial1(number1);
+console.log("Factorial of", number1, fact1);
 
-//factorial while loop fuction
+
+
+// Factorial using a while loop
 function factorial2(number) {
   let i = 1;
   let result = 1;
-  while (i >= number) {
-    result = result * i;
-    i--;
+  while (i <= number) {
+    result *= i;
+    i++;
   }
   return result;
 }
 const number2 = 10;
 const fact2 = factorial2(number2);
-// console.log('factoaril2 of', number2, fact2);
+console.log("Factorial of", number2, fact2);
 
 
-// find eventodd :odd
-const my_numbers = [24, 56, 77, 45, 78, 99];
-function getOddNumbersofAnArray(numbers) {
-  const oddnumber = [];
+
+// Finding odd numbers in an array
+const oddNumbersList = [24, 56, 77, 45, 78, 99];
+
+function getOddNumbersOfArray(numbers) {
+  const oddNumbers = [];
   for (let i = 0; i < numbers.length; i++) {
     const index = i;
     const element = numbers[i];
     if (element % 2 !== 0) {
-      // console.log(index, element);
-      oddnumber.push(element);
+      console.log(index, element);
+      oddNumbers.push(element);
     }
   }
-  return oddnumber
+  return oddNumbers;
 }
-// let oddnumder = getoddnumbersofarray (oddnumder)
-getOddNumbersofAnArray(my_numbers);
+getOddNumbersOfArray(oddNumbersList);
 
-// string and revece string
-function reversestring1(text1) {
-  for (a = 0; a < text1.length; a++) {
-    const element1 = text1[a];
-    return (element1);
+
+
+// Reverse string function
+function reverseString(text) {
+  let reversed = "";
+  for (let i = text.length - 1; i >= 0; i--) {
+    reversed += text[i];
   }
+  return reversed;
 }
-const myString1 = 'i am a good boy';
-const reverce1 = reversestring1(myString1);
-// return reverce1
-
-function reversestring2(text2) {
-  for (i = text2.length - 1; i >= 0; i--) {
-    const element2 = text2[i];
-    return (element2);
-  }
-}
-const myString2 = 'i am a good boy';
-const reverce2 = reversestring2(myString2);
-// return reverce2
+const myString = "I am a good boy";
+console.log("Reversed string:", reverseString(myString));
 
 
-// calculate sum of numbers using recursion
+
+// Recursive sum function
 function sum(i) {
-  if (i == 1) {
+  if (i === 1) {
     return 1;
-  }
-  else
+  } else {
     return i + sum(i - 1);
+  }
 }
-const result = 5;
-// console.log(result);
+console.log("Recursive sum:", sum(5));
 
-const result10 = foctorial1(5);
-function foctorial1(i) {
-  if (i == 1) {
+
+
+// Recursive factorial function
+function factorialRecursive(i) {
+  if (i === 1) {
     return 1;
   }
-  // else
-  return i * foctorial1(i - 1);
+  return i * factorialRecursive(i - 1);
 }
-// console.log(result10);
+console.log("Recursive factorial:", factorialRecursive(5));
 
 
 
@@ -1031,50 +1072,44 @@ function foctorial1(i) {
 
 
 
+// 6. How Objects Work in JavaScript
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//// ৬। javascript এ objecct যেভাবে কাজ করে ।
-
-// সাধারনত objecct যেভাবে লিখে ।
+// Declaring a basic object
 var student = {
   id: 66242,
-  information: 'alvi al mahmud',
+  information: "Alvi Al Mahmud",
   class: 9,
   marks: 95,
-}
+};
 
-// object এর মান পরিবতিন করার নিয়ম ।
+
+
+// Modifying a property value in an object
 student.class = 10;
-// console.log(student);
+console.log(student);
 
-// object এর কোন একটি propaty মান দেখেতে চাইলে সে ক্ষেত্রে object এর ব্যবহার ।
-// console.log(student.information)
 
-// object এর সব propaty এর নাম Array এর ভিতরে String আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
-var proparts = Object.keys(student);
-// console.log(proparts);
 
-//object এর সব propaty এর মান Array এর ভিতরে মান আকারে পেতে চাইলে , সে ক্ষেত্রে object এর ব্যবহার ।
-var proparty = Object.values(student);
-// console.log(proparty);
+// Accessing a specific property value in an object
+console.log(student.information);
 
-// importent object example.
 
-// Object এ for loop এর ব্যবহার ।
 
-var shoppingcart = {
+// Getting all property names as an array of strings
+var properties = Object.keys(student);
+console.log(properties);
+
+
+
+// Getting all property values as an array
+var propertyValues = Object.values(student);
+console.log(propertyValues);
+
+
+
+// Important Object Example: Using for loops with objects
+
+var shoppingCart = {
   books: 3,
   sunglass: 1,
   keyboard: 5,
@@ -1082,76 +1117,81 @@ var shoppingcart = {
   pen: 25,
   shoes: 2,
   bottle: 1,
+};
+
+
+
+// Long version using Object.keys() and Object.values()
+var keys = Object.keys(shoppingCart);
+console.log(keys);
+
+
+
+var values = Object.values(shoppingCart);
+console.log(values);
+
+
+
+for (let i = 0; i < keys.length; i++) {
+  var propertyInformation = keys[i];
+  var propertyValue = values[i];
+  console.log(propertyInformation, propertyValue);
 }
 
-// long term
-var keys = Object.keys(shoppingcart);
-// console.log(keys);
 
-var values = Object.values(shoppingcart);
-// console.log(values);
 
-for (i = 0; i < keys.length; i++) {
-  var propartyinformation = keys[i];
-  var propatyValue = values[i];
-  // console.log(propartyinformation, propatyValue);
+// Short version using a for-in loop
+for (var propertyInformation in shoppingCart) {
+  const value = shoppingCart[propertyInformation];
+  console.log(propertyInformation, value);
 }
 
-// short term
-var shoppingcart = {
-  books: 3,
-  sunglass: 1,
-  keyboard: 5,
-  mouse: 1,
-  pen: 25,
-  shoes: 2,
-  bottle: 1,
-}
 
-for (var propartyinformation in shoppingcart) {
-  const values = shoppingcart[propartyinformation];
-  // console.log(propartyinformation, values);
-}
 
-var Array = ['alvi :', 54, 'apu :', 45];
-// console.log(Array);
+// Declaring an array with mixed values
+var arrayExample = ["Alvi :", 54, "Apu :", 45];
+console.log(arrayExample);
 
-var shoppingcart = {
-  books: 3,
-  sunglass: 1,
-  keyboard: 5,
-  mouse: 1,
-  pen: 25,
-  shoes: 2,
-  bottle: 1,
-}
-// console.log(shoppingcart);
 
+
+// Logging an object
+console.log(shoppingCart);
+
+
+
+// Array of objects representing products
 const products = [
-  { id: 1, Productsinformation: "xiani phones", productsPrice: 1500 },
-  { id: 2, Productsinformation: "samsumg phones", productsPrice: 1500 },
-  { id: 3, Productsinformation: "iphone phones", productsPrice: 1500 },
-  { id: 4, Productsinformation: "premax phones", productsPrice: 1500 },
-  { id: 5, Productsinformation: "xiani lapTop", productsPrice: 1500 },
-  { id: 6, Productsinformation: "samsumg lapTop", productsPrice: 1500 },
-  { id: 7, Productsinformation: "iphone lapTop", productsPrice: 1500 },
-  { id: 8, Productsinformation: "premax lapTop", productsPrice: 1500 }
+  { id: 1, productName: "Xiaomi Phones", productPrice: 1500 },
+  { id: 2, productName: "Samsung Phones", productPrice: 1500 },
+  { id: 3, productName: "iPhone Phones", productPrice: 1500 },
+  { id: 4, productName: "Premax Phones", productPrice: 1500 },
+  { id: 5, productName: "Xiaomi Laptop", productPrice: 1500 },
+  { id: 6, productName: "Samsung Laptop", productPrice: 1500 },
+  { id: 7, productName: "iPhone Laptop", productPrice: 1500 },
+  { id: 8, productName: "Premax Laptop", productPrice: 1500 },
 ];
 
-function machedProducts(products, search) {
-  const mached = [];
+
+
+// Function to filter products based on a search term
+function matchedProducts(products, search) {
+  const matched = [];
   for (const product of products) {
-    if (product.Productsinformation.toLowerCase().includes(search.toLowerCase())) {
-      mached.push(products);
+    if (product.productName.toLowerCase().includes(search.toLowerCase())) {
+      matched.push(product);
     }
   }
-  return mached;
+  return matched;
 }
-const result25 = machedProducts(products, "phones");
-// console.log(result25);
+
+
+
+// Searching for products that include "phones"
+const result25 = matchedProducts(products, "phones");
+console.log(result25);
 
 
 
 
 
-                                              // Normal-JAVASCRIPT-Toturial-END //
+// Normal-JAVASCRIPT-Toturial-END //

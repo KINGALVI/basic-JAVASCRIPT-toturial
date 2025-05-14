@@ -22,7 +22,7 @@ function lagestSum(lagestNumber) {
 
 
 const lagestResult = lagestSum(lagest);
-// console.log(lagestResult);
+console.log(lagestResult);
 
 
 
@@ -44,7 +44,7 @@ for (let i = 2; i <= 12; i++) {
 }
 
 
-// console.log(fibo);
+console.log(fibo);
 
 
 
@@ -75,7 +75,7 @@ function removeDuplicate(names) {
 
 
 const newNameList = removeDuplicate(names);
-// console.log(newNameList);
+console.log(newNameList);
 
 
 
@@ -91,16 +91,16 @@ const newNameList = removeDuplicate(names);
 
 for (let i = 0; i <= 50; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-    // console.log('foobar');
+    console.log('foobar');
   }
   else if (i % 3 === 0) {
-    // console.log('bar');
+    console.log('bar');
   }
   else if (i % 5 === 0) {
-    // console.log('foobar');
+    console.log('foobar');
   }
   else {
-    // console.log(i);
+    console.log(i);
   }
 }
 
@@ -125,13 +125,13 @@ function woodCalculator(chairQuantity, tableQuantity, bedQantity) {
 
 
   const perChairQuantity = chairQuantity * 3;
-  // console.log(`total Chair woood requerment is ${perChairQuantity}cft`);
+  console.log(`total Chair woood requerment is ${perChairQuantity}cft`);
 
   const perTableQuantity = tableQuantity * 10;
-  // console.log(`total Tabel woood requerment is ${perTableQuantity}cft`);
+  console.log(`total Tabel woood requerment is ${perTableQuantity}cft`);
 
   const perBedQuantity = bedQantity * 50;
-  // console.log(`total Tabel woood requerment is ${perBedQuantity}cft`);
+  console.log(`total Tabel woood requerment is ${perBedQuantity}cft`);
 
 
   return {
@@ -143,7 +143,7 @@ function woodCalculator(chairQuantity, tableQuantity, bedQantity) {
 
 
 const totoalWoodCalculatorResult = woodCalculator(totalChair, totalTable, totalBed);
-// console.log(totoalWoodCalculatorResult);
+console.log(totoalWoodCalculatorResult);
 
 
 
@@ -185,7 +185,7 @@ function cheapestPhone(Phones) {
 
 
 const mySelection = cheapestPhone(phone);
-// console.log(mySelection);
+console.log(mySelection);
 
 
 
@@ -201,13 +201,13 @@ const totalTicketPeople = [0];
 
 
 if (totalTicketPeople <= 100) {
-  // console.log(`total ticket price is ${totalTicketPeople * 100}tk`);
+  console.log(`total ticket price is ${totalTicketPeople * 100}tk`);
 }
 else if (totalTicketPeople > 100 && totalTicketPeople <= 200) {
-  // console.log(`total ticket price is ${totalTicketPeople * 90}tk`);
+  console.log(`total ticket price is ${totalTicketPeople * 90}tk`);
 }
 else {
-  // console.log(`total ticket price is ${totalTicketPeople * 70}tk`);
+  console.log(`total ticket price is ${totalTicketPeople * 70}tk`);
 }
 
 
@@ -242,7 +242,7 @@ function ticketPrice(ticketQuantity) {
 
 
 const totalPrice = ticketPrice(TotalTicketPeople);
-// console.log(totalPrice);
+console.log(totalPrice);
 
 
 
@@ -261,7 +261,7 @@ let sum1 = 0;
 for (let i = 1; i <= 5; i++) {
   sum1 = sum1 + i;
 }
-// console.log(sum1);
+console.log(sum1);
 
 
 let sum2 = 0;
@@ -269,7 +269,7 @@ let sum2 = 0;
 for (let i = 5; i >= 1; i--) {
   sum2 = sum2 + i;
 }
-// console.log(sum2);
+console.log(sum2);
 
 
 
@@ -300,7 +300,7 @@ function sum(i) {
 }
 
 const sumResult1 = sum(theSum1);
-// console.log(sumResult1);
+console.log(sumResult1);
 
 
 //
@@ -320,7 +320,7 @@ function sum(i) {
 }
 
 const sumResult2 = sum(theSum2);
-// console.log(sumResult2);
+console.log(sumResult2);
 
 
 
